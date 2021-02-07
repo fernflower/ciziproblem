@@ -35,11 +35,20 @@ def index(context=None):
         if key.startswith('__'):
             system_context[key] = value
         else:
-            context_to_pass[key] = value
-    
+            # check if specific type of input is required, if no given it will be text
+            elem = {'value': value}
+            spec_input_key = '__{}_radio'.format(key)
+            if spec_input_key in context:
+                elem['input'] = 'radio'
+                elem['ids'] = context[spec_input_key]
+            else:
+                elem['input'] = 'text'
+            context_to_pass[key] = elem
+
     return template.render(context=context_to_pass,
                            name=context.get('__name__', "Application"),
                            system_context=system_context)
+
 
 @route('/generate', method="POST")
 def generate(docx_template_name="zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu.docx", context=None):

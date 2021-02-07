@@ -17,13 +17,27 @@
         <div class="row">
           <div class="col-lg-8">
             <form id="formTemplate" class="col-lg-6 offset-lg-3">
-              {% for key, value in context.items() %}
-                <div class="form-group row">
-                  <label for="input{{ key }}" class="col-sm-6 col-form-label">{{ key | replace('_', ' ') | capitalize }}</label>
-                  <div class="col-sm-6">
-                    <input type="text" class="form-control" id="input{{ key }}" name="{{ key }}" placeholder="{{value}}">
+              {% for key, value_dict in context.items() %}
+                {% if value_dict.get('input') == 'text' %}
+                  <div class="form-group row">
+                    <label for="input{{ key }}" class="col-sm-6 col-form-label">{{ key | replace('_', ' ') | capitalize }}</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="input{{ key }}" name="{{ key }}" placeholder="{{value_dict.get('value')}}">
+                    </div>
                   </div>
-                </div>
+                {% else %}
+                  <div class="form-group row">
+                    <label for="input{{ key }}" class="col-sm-6 col-form-label">{{ key | replace('_', ' ') | capitalize }}</label>
+                    <div class="btn-group col-sm-6">
+                    {% for item in value_dict.get('ids') %}
+                      <div class="form-check">
+                        <input type="{{value_dict.get('input')}}" class="form-check-input" id="{{item}}" name="{{key}}" value="{{item}}">
+                        <label for="{{ item }}" class="form-check-label">{{ item | replace('_', ' ') | capitalize }}</label>
+                      </div>
+                    {% endfor %}
+                    </div>
+                  </div>
+                {% endif %}
               {% endfor %}
               <div class="form-group row">
                 <div class="col-sm-6">

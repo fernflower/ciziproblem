@@ -12,5 +12,6 @@
  "__postal_address__": "Ministerstvo vnitra, nám. Hrdinů 1634/3, poštovní schránka 155/SO, 140 21 Praha 4",
  "__datova_schranka__": "b78xtfa",
  "__link__": "https://www.mvcr.cz/clanek/komise-pro-rozhodovani-ve-vecech-pobytu-cizincu.aspx",
- "__authority__": "Komise pro rozhodování ve věcech pobytu cizinců"
+ "__authority__": "Komise pro rozhodování ve věcech pobytu cizinců",
+ "__gender_radio" : ["Male", "Female"]
 }
