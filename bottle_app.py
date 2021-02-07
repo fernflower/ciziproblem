@@ -29,8 +29,17 @@ def index(context=None):
     if not context:
         context = DEFAULT_CONTEXT_DICT
     template = env.get_or_select_template('index.tpl')
-    return template.render(context={k: v for k, v in context.items() if not k.startswith('__')},
-                           name=context.get('__name__', "Application"))
+    system_context = {}
+    context_to_pass = {}
+    for key, value in context.items():
+        if key.startswith('__'):
+            system_context[key] = value
+        else:
+            context_to_pass[key] = value
+    
+    return template.render(context=context_to_pass,
+                           name=context.get('__name__', "Application"),
+                           system_context=system_context)
 
 @route('/generate', method="POST")
 def generate(docx_template_name="zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu.docx", context=None):
