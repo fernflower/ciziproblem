@@ -29,4 +29,6 @@ This will start the server at `http://localhost:7777`.
 - [ ] Deploy at https://ciziproblem.cz
 - [ ] Make webui more mature
 - [ ] i18n support, russian/english at least
-- [ ] Add license
+- [x] Add license
+- [ ] Add kind reminder for speeding up the process of permanent/long-term residence permit when the deadline has not yet passed
+- [ ] Add complaint for long-term residence permit
