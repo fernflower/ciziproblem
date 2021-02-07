@@ -7,5 +7,6 @@
  "telephone": "123456789",
  "date": "01.01.01",
  "application_number": "OAM-424242",
- "application_date": "01.01.11"
+ "application_date": "01.01.11",
+ "__name__": "Žádost o uplatnění opatření proti nečinnosti"
 }

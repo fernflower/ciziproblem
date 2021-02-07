@@ -1,2 +1,4 @@
+bottle
 docx
 docxtpl
+jinja2
