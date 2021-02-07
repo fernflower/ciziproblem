@@ -1,0 +1,10 @@
+web:
+  image: nginx
+  volumes:
+  - ./templates:/etc/nginx/templates
+  - ./socket/mysite.sock:/run/ciziproblem/mysite.sock
+  ports:
+   - "7777:7777"
+  environment:
+   - NGINX_HOST=localhost
+   - NGINX_PORT=7777

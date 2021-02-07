@@ -3,7 +3,7 @@ import json
 import os
 import tempfile
 
-from bottle import request, route, run, static_file
+from bottle import default_app, request, route, run, static_file
 
 import generate as gen
 
@@ -48,5 +48,4 @@ def generate(docx_template_name="zadost_o_uplatneni_opatreni_proti_necinnosti_sp
                 mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                 download=docx_template_name)
 
-# XXX FIXME Just for dev purposes
-run(host='localhost', port=8080)
+app = default_app()
