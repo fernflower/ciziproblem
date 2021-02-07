@@ -1,10 +1,21 @@
-web:
-  image: nginx
-  volumes:
-  - ./templates:/etc/nginx/templates
-  - ./socket/mysite.sock:/run/ciziproblem/mysite.sock
-  ports:
-   - "7777:7777"
-  environment:
-   - NGINX_HOST=localhost
-   - NGINX_PORT=7777
+version: '3.7'
+services:
+  web:
+    image: nginx
+    volumes:
+      - ./templates:/etc/nginx/templates
+      - ./socket:/run/ciziproblem
+    ports:
+      - "7777:7777"
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=7777
+    depends_on:
+      - bottle
+  bottle:
+    build:
+      context: .
+    volumes:
+      - ./socket:/ciziproblem/socket
+      - /var/log/uwsgi/ciziproblem.log:/var/log/uwsgi/ciziproblem.log
+    tty: true
