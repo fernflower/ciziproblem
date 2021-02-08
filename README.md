@@ -12,9 +12,9 @@ The only real way to speed up the process is to write a complaint to the special
 the Ministry of Interior doesn't provide the complaint form, the application is required to be in Czech and contain references to the actual law paragraph
 to be applied.
 
-Some kinds of applications - like permanent residence permit application - are essential to the foreigner's family wellbeing (due to the 
-unprecedented in the EU practice of letting third-country residents' children to get proper medical coverage through national health insurance system enrollment
-[only after they obtain a permanent residence permit](https://pvzpnenivzp.cz)). It would be cruel and ignorant not to try to do something about it.
+Some kinds of applications - like permanent residence permit application - are essential for the foreigner's family wellbeing. For example the
+unprecedented in the EU practice of denying third-country residents' children proper health coverage through national health insurance system enrollment
+[can be mitigated only by obtaining a permanent residence permit](https://pvzpnenivzp.cz). It would be cruel and ignorant not to do something about it.
 
 ## Getting started
 
