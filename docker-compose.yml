@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   web:
-    image: nginx
+    image: nginx:1.19-alpine
     volumes:
       - ./log/nginx:/var/log/nginx
       - ./templates:/etc/nginx/templates
