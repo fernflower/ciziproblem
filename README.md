@@ -10,7 +10,7 @@ Although the deadlines are set by law [Zákon č. 326/1999 Sb.](https://www.zako
 The only real way to speed up the process is to write a complaint to the special Committee, which is a tricky and complicated procedure for the majority of foreigners as the Ministry of Interior doesn't provide the complaint form, the application is required to be in Czech and contain references to the actual law paragraph to be applied.
 
 Some kinds of applications – like permanent residence permit application – are essential for the foreigner's family wellbeing. For example the
-unprecedented in the EU practice of denying third-country residents' children proper health coverage through national health insurance system enrollment
+unprecedented in the EU practice of denying third–country residents' children proper health coverage through national health insurance system enrollment
 [can be mitigated only by obtaining a permanent residence permit](https://pvzpnenivzp.cz). It would be cruel and ignorant not to do something about it.
 
 ## Getting started
