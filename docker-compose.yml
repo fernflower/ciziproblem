@@ -17,5 +17,5 @@ services:
       context: .
     volumes:
       - ./socket:/ciziproblem/socket
-      - /var/log/uwsgi/ciziproblem.log:/var/log/uwsgi/ciziproblem.log
+      # - /var/log/uwsgi/ciziproblem.log:/var/log/uwsgi/ciziproblem.log
     tty: true
