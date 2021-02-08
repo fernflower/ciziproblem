@@ -24,11 +24,8 @@ env = jinja2.Environment(
 )
 
 
-@route('/')
-def index(context=None):
-    if not context:
-        context = DEFAULT_CONTEXT_DICT
-    template = env.get_or_select_template('index.tpl')
+def docform(context):
+    template = env.get_or_select_template('docform.tpl')
     system_context = {}
     context_to_pass = {}
     for key, value in context.items():
@@ -48,6 +45,18 @@ def index(context=None):
     return template.render(context=context_to_pass,
                            name=context.get('__name__', "Application"),
                            system_context=system_context)
+
+
+@route('/')
+def index():
+    template = env.get_or_select_template('index.tpl')
+    return template.render()
+
+
+@route('/necinnost_trvaly_pobyt')
+def necinnost_trvaly_pobyt():
+    context = _default_context('necinnost_trvaly_context')
+    return docform(context)
 
 
 @route('/generate', method="POST")
