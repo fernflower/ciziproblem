@@ -2,23 +2,20 @@
 
 ## About
 
-Inspired by [РосЯма](https://rosyama.ru/) - the project that made responsible governmental authorities in Russia to actually fix thousands of pothoals by automating
-the process of complaints creation.
+Inspired by [РосЯма](https://rosyama.ru/) – the project that made responsible governmental authorities in Russia to actually fix thousands of potholes by automating the process of complaints creation.
 
-This project aims at helping foreigners in the Czech Republic to combat the common practice of missing deadlines for various residence permit applications by
+This project aims at helping foreigners in the Czech Republic to overcome the common practice of missing deadlines for various residence permit applications by
 the Ministry of Interior offices.
-Although the deadlines are set by law [Zákon č. 326/1999 Sb.](https://www.zakonyprolidi.cz/cs/1999-326) - a lot of cases never get the final decision in time.
-The only real way to speed up the process is to write a complaint to the special Committee, which is a tricky complicated procedure for the majority of foreigners as
-the Ministry of Interior doesn't provide the complaint form, the application is required to be in Czech and contain references to the actual law paragraph
-to be applied.
+Although the deadlines are set by law [Zákon č. 326/1999 Sb.](https://www.zakonyprolidi.cz/cs/1999-326) – a lot of cases never get the final decision in time.
+The only real way to speed up the process is to write a complaint to the special Committee, which is a tricky and complicated procedure for the majority of foreigners as the Ministry of Interior doesn't provide the complaint form, the application is required to be in Czech and contain references to the actual law paragraph to be applied.
 
-Some kinds of applications - like permanent residence permit application - are essential for the foreigner's family wellbeing. For example the
+Some kinds of applications – like permanent residence permit application – are essential for the foreigner's family wellbeing. For example the
 unprecedented in the EU practice of denying third-country residents' children proper health coverage through national health insurance system enrollment
 [can be mitigated only by obtaining a permanent residence permit](https://pvzpnenivzp.cz). It would be cruel and ignorant not to do something about it.
 
 ## Getting started
 
-The deployment is docker-compose-friendly and thus straightforward:
+The deployment is docker–compose–friendly and thus straightforward:
 
 `docker-compose up`
 
