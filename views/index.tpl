@@ -24,7 +24,7 @@
         <div class="row justify-content-center align-self-center">
           <div class="col">
             <div class="list-group">
-              <a href="/rodne_cislo_application" class="list-group-item list-group-action list-group-item-warning">COMING SOON: Rodné číslo assignment application</a>
+              <a href="/rodne_cislo_application" class="list-group-item list-group-action list-group-item-warning">Rodné číslo assignment application</a>
             </div>
             <p>Rodné číslo is the unique identifier that every institution in the Czech Republic will want from you. Unless requested directly the process of assignment may take from several months to several years.</p>
           </div>

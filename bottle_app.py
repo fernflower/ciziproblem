@@ -16,8 +16,14 @@ def _default_context(filename):
         except:
             return {}
 
-DEFAULT_CONTEXT_FILE = 'necinnost_trvaly_context'
-DEFAULT_CONTEXT_DICT = _default_context(DEFAULT_CONTEXT_FILE)
+TEMPLATE_MAP = {
+        "Trvalý pobyt: Žádost o uplatnění opatření proti nečinnosti": {
+            "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu.docx",
+            "context": "necinnost_trvaly_context"},
+        "Žádost o přidělení rodného čísla": {
+            "template": "zadost_rodne_cislo.docx",
+            "context": "rodne_cislo_context"}
+        }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
     extensions=['jinja2.ext.i18n']
@@ -59,13 +65,23 @@ def necinnost_trvaly_pobyt():
     return docform(context)
 
 
-@route('/generate', method="POST")
-def generate(docx_template_name="zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu.docx", context=None):
+@route('/rodne_cislo_application')
+def necinnost_trvaly_pobyt():
+    context = _default_context('rodne_cislo_context')
+    return docform(context)
 
+
+@route('/generate', method="POST")
+def generate():
     data = request.forms
+    docx_template_name = TEMPLATE_MAP.get(data.get('__form__'), {}).get('template')
+    default_context_name = TEMPLATE_MAP.get(data.get('__form__'), {}).get('context')
+    if not docx_template_name or not default_context_name:
+        return
+    default_context = _default_context(default_context_name)
     # vet against default context keys
-    user_input_vetted = {k: v for k, v in data.iteritems() if k in DEFAULT_CONTEXT_DICT and v}
-    context = dict(DEFAULT_CONTEXT_DICT)
+    user_input_vetted = {k: v for k, v in data.iteritems() if k in default_context and v}
+    context = dict(default_context)
     context.update(user_input_vetted)
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         gen.generate_doc(docx_template_name, context, temp_doc.name)

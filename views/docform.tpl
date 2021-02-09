@@ -13,7 +13,7 @@
   <body class='bg-light'>
     <div class='container'>
       <div class="py-5 text-left">
-        <h1 class="col-lg-6 offset-lg-3">{{name}}</h1>
+        <h1 class="col-lg-6 offset-lg-3">{{ system_context.get('__name__') }}</h1>
         <div class="row">
           <div class="col-lg-8">
             <form id="formTemplate" class="col-lg-6 offset-lg-3">
@@ -68,6 +68,7 @@
           formTemplate.onsubmit = async (e) => {
           e.preventDefault();
           const form = new FormData(document.getElementById('formTemplate'));
+          form.append('__form__', "{{ system_context.get('__name__') }}" );
           let response = await fetch('/generate', { method: 'POST', body: form });
           let result = await response.blob();
           saveData(result, '{{ name }}.docx');
