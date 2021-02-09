@@ -22,7 +22,10 @@ TEMPLATE_MAP = {
             "context": "necinnost_trvaly_context"},
         "Žádost o přidělení rodného čísla": {
             "template": "zadost_rodne_cislo.docx",
-            "context": "rodne_cislo_context"}
+            "context": "rodne_cislo_context"},
+        "Potvrzení o pobytu (tzv. historie pobytu)": {
+            "template": "zadost_o_potvrzeni_o_pobytu.docx",
+            "context": "historie_pobytu_context"}
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -68,6 +71,12 @@ def necinnost_trvaly_pobyt():
 @route('/rodne_cislo_application')
 def necinnost_trvaly_pobyt():
     context = _default_context('rodne_cislo_context')
+    return docform(context)
+
+
+@route('/historie_pobytu')
+def necinnost_trvaly_pobyt():
+    context = _default_context('historie_pobytu_context')
     return docform(context)
 
 

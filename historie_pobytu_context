@@ -1,0 +1,14 @@
+{"name": "Harry",
+ "surname": "James",
+ "date_of_birth": "31.07.1980",
+ "nationality": "British",
+ "address": "4 Privet Drive",
+ "city": "London",
+ "date": "01.01.01",
+ "name_of_czech_authority": "Hogwarts School of Witchcraft and Wizardry",
+ "__name__": "Potvrzení o pobytu (tzv. historie pobytu)",
+ "__postal_address__": "Ministerstvo vnitra, nám. Hrdinů 1634/3, poštovní schránka 155/SO, 140 21 Praha 4",
+ "__datova_schranka__": "b78xtfa",
+ "__link__": "https://www.mvcr.cz/clanek/potvrzeni-o-pobytu.aspx",
+ "__authority__": "Ministerstvo vnitra"
+}

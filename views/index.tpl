@@ -40,7 +40,7 @@
         <div class="row justify-content-center align-self-center">
           <div class="col">
             <div class="list-group">
-              <a href="/residence_confirmation" class="list-group-item list-group-action list-group-item-info">COMING SOON: Request official residence in the Czech Republic confirmation (historie pobytu)</a>
+              <a href="/historie_pobytu" class="list-group-item list-group-action list-group-item-info">Request official residence in the Czech Republic confirmation (historie pobytu)</a>
             </div>
             <p>When you have to confirm the duration of your residence in the Czech Republic.</p>
           </div>
