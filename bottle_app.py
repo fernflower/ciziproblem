@@ -1,3 +1,4 @@
+import datetime
 import jinja2
 import json
 import os
@@ -96,6 +97,13 @@ def generate():
     user_input_vetted = {k: v for k, v in data.iteritems() if k in default_context and v}
     context = dict(default_context)
     context.update(user_input_vetted)
+    # transition from YYYY-MM-DD dates to expected DD.MM.YYYY
+    for date_key in [k for k in context if context.get('__{}_date'.format(k))]:
+        try:
+            context[date_key] = datetime.datetime.strptime(context[date_key], '%Y-%M-%d').strftime('%d.%M.%Y')
+        except (TypeError, ValueError):
+            # if anything breaks - just have it as is
+            pass
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         gen.generate_doc(docx_template_name, context, temp_doc.name)
         return static_file(
