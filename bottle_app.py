@@ -42,11 +42,15 @@ def docform(context):
             system_context[key] = value
         else:
             # check if specific type of input is required, if no given it will be text
-            elem = {'value': value}
-            spec_input_key = '__{}_radio'.format(key)
-            if spec_input_key in context:
+            elem = { 'value': value }
+            radio = '__{}_radio'.format(key)
+            date = '__{}_date'.format(key)
+
+            if radio in context:
                 elem['input'] = 'radio'
-                elem['ids'] = context[spec_input_key]
+                elem['ids'] = context[radio]
+            elif date in context:
+                elem['input'] = 'date'
             else:
                 elem['input'] = 'text'
             context_to_pass[key] = elem
@@ -101,3 +105,6 @@ def generate():
                 download=docx_template_name)
 
 app = default_app()
+
+if __name__ == '__main__':
+    run(app, host='localhost', port=8080)
