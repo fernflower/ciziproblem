@@ -3,6 +3,7 @@ import jinja2
 import json
 import os
 import tempfile
+import yaml
 
 from bottle import default_app, request, route, run, static_file
 
@@ -13,10 +14,20 @@ def _default_context(filename):
     """Returns a default context dict"""
     with open(filename) as f:
         try:
-            return json.loads(f.read())
+            data = json.loads(f.read())
+            if data['__postal_address__'] == 'minvnitra_offices_chooser':
+                data['chosen_office'] = None
+            return data
         except:
             return {}
 
+def get_offices_list():
+    with open('minvnitra_offices', encoding='utf8') as f:
+        offices = yaml.safe_load(f)
+    return offices['offices']
+
+
+OFFICES = get_offices_list()
 TEMPLATE_MAP = {
         "Trvalý pobyt: Žádost o uplatnění opatření proti nečinnosti": {
             "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu.docx",
@@ -58,7 +69,8 @@ def docform(context):
 
     return template.render(context=context_to_pass,
                            name=context.get('__name__', "Application"),
-                           system_context=system_context)
+                           system_context=system_context,
+                           minvnitra_offices=get_offices_list())
 
 
 @route('/')
@@ -85,6 +97,17 @@ def necinnost_trvaly_pobyt():
     return docform(context)
 
 
+def get_office_by_name(name):
+    return next((o for o in OFFICES if o['name'] == name), None)
+
+
+@route('/get_office_address', method="POST")
+def get_office_address():
+    data = request.forms
+    office = get_office_by_name(data.get('office'))
+    return json.dumps(office or {})
+
+
 @route('/generate', method="POST")
 def generate():
     data = request.forms
@@ -104,6 +127,10 @@ def generate():
         except (TypeError, ValueError):
             # if anything breaks - just have it as is
             pass
+    # process chosen office: substitute name with full information
+    if 'chosen_office' in context:
+        context['chosen_office'] = get_office_by_name(
+                context.get('chosen_office')) or get_office_by_name('Pracoviště Praha V.')
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         gen.generate_doc(docx_template_name, context, temp_doc.name)
         return static_file(
