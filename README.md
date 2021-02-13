@@ -21,10 +21,12 @@ The deployment is docker–compose–friendly and thus straightforward:
 
 This will start the server at `http://localhost:7777`.
 
+You can also run the development version with `python bottle_app.py`, this will start a dev webserver at `http://localhost:8080`.
+
 ## To be done
 
 - [ ] Deploy at https://ciziproblem.cz
-- [ ] Make webui more mature
+- [x] Make webui more mature
 - [ ] i18n support, russian/english at least
 - [x] Add license
 - [ ] Add kind reminder for speeding up the process of permanent/long-term residence permit when the deadline has not yet passed
