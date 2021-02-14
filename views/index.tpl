@@ -22,7 +22,7 @@
   <body class='bg-light'>
     <div class='container'>
       <div class="image"></div>
-      <h2>Which document you want to create today?</h2>
+      <h2>Which document do you want to create today?</h2>
       <div class="options">
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">

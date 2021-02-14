@@ -3,3 +3,4 @@ docx
 docxtpl
 jinja2
 uwsgi
+pyyaml

@@ -64,18 +64,35 @@
               </h4>
 
               <hr class="my-3">
-
               <div>
-                <h5>Postal address</h5>
+                <h5>ID datové schránky</h5>
+                <p class="m-0">{{ system_context.get('__datova_schranka__') }}</p>
+              </div>
+              {% if system_context.get('__postal_address__') == 'minvnitra_offices_chooser' %}
+              <div class="mv-3 p-3">
+                <form id="officeSelectorForm">
+                  <select id="officeSelector" name="office" class="form-select form-select-sm" aria-label=".form-select-sm minvnitra" style="width:auto">
+                    <option>Choose Ministry of Interior office</option>
+                    {% for office in minvnitra_offices %}
+                      <option id="{{ office.get('name') }}" name="{{ office.get('name') }}" value="{{ office.get('name') }}">{{ office.get('name') }}</option>
+                    {% endfor %}
+                  </select>
+                </form>
+              </div>
+              <div id="chosenOfficeAddressDiv" style="display: none">
+                <h5>Address</h5>
+                <address id="chosenOfficeAddress"></address>
+              </div>
+              {% else %}
+              <div>
+                <h5>Address</h5>
                 <address>
                   {%- for line in system_context.get('__postal_address__', '').split(', ') %}
                    {{- line -}}<br />
                   {%- endfor %}
                 </address>
               </div>
-              <div>
-                <h5>ID datové schránky</h5>
-                <p class="m-0">{{ system_context.get('__datova_schranka__') }}</p>
+              {% endif %}
               </div>
             </div>
           </div>
@@ -98,12 +115,16 @@
       };
     }());
 
+    const officeSelector = document.getElementById('officeSelector');
     const formTemplate = document.getElementById('formTemplate');
     formTemplate.onsubmit = function(e) {
       e.preventDefault();
 
       const formData = new FormData(this);
       formData.append('__form__', "{{ system_context.get('__name__') }}" );
+      if (officeSelector) {
+        formData.append('chosen_office', officeSelector.value);
+      };
 
       fetch('/generate', { method: 'POST', body: formData })
       .then((resp) => (
@@ -111,6 +132,26 @@
       ))
       .then((blob) => {
         saveData(blob, '{{ name }}.docx');
+      });
+    };
+
+    const chosenOffice = document.getElementById('chosenOfficeAddress');
+    const chosenOfficeAddressDiv = document.getElementById('chosenOfficeAddressDiv');
+    officeSelector.onchange = function(e) {
+      e.preventDefault();
+      const formData = new FormData(officeSelectorForm);
+      fetch('/get_office_address', { method: 'POST', body: formData })
+      .then(resp => (
+        resp.json()
+      ))
+      .then((data) => {
+        if (Object.keys(data).length == 0) {
+            chosenOfficeAddressDiv.style.display = "none";
+        } else {
+          var address = data['territory'] + '<br>' + data['address'] + '<br>' + data['telephone'];
+          chosenOffice.innerHTML = address;
+          chosenOfficeAddressDiv.style.display = "block";
+        }
       });
     };
   </script>
