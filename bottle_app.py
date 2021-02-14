@@ -37,7 +37,11 @@ TEMPLATE_MAP = {
             "context": "rodne_cislo_context"},
         "Potvrzení o pobytu (tzv. historie pobytu)": {
             "template": "zadost_o_potvrzeni_o_pobytu.docx",
-            "context": "historie_pobytu_context"}
+            "context": "historie_pobytu_context"},
+        "Žádost o uplatnění opatření proti nečinnosti": {
+            "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_Nin1.docx",
+            "context": "necinnost_Nin1_context"
+            }
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -79,20 +83,20 @@ def index():
     return template.render()
 
 
-@route('/necinnost_trvaly_pobyt')
-def necinnost_trvaly_pobyt():
-    context = _default_context('necinnost_trvaly_context')
+@route('/necinnost_Nin1')
+def necinnost():
+    context = _default_context('necinnost_Nin1_context')
     return docform(context)
 
 
 @route('/rodne_cislo_application')
-def necinnost_trvaly_pobyt():
+def rodne_cislo():
     context = _default_context('rodne_cislo_context')
     return docform(context)
 
 
 @route('/historie_pobytu')
-def necinnost_trvaly_pobyt():
+def historie_pobytu():
     context = _default_context('historie_pobytu_context')
     return docform(context)
 
@@ -131,6 +135,9 @@ def generate():
     if 'chosen_office' in context:
         context['chosen_office'] = get_office_by_name(
                 context.get('chosen_office')) or get_office_by_name('Pracoviště Praha V.')
+    # pass declination dicts if any present in context
+    for key in [k for k in context if k.startswith('__declination')]:
+        context[key.lstrip('__')] = context[key]
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         gen.generate_doc(docx_template_name, context, temp_doc.name)
         return static_file(
