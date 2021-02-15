@@ -16,7 +16,7 @@ def _default_context(filename):
         try:
             data = json.loads(f.read())
             if data['__postal_address__'] == 'minvnitra_offices_chooser':
-                data['chosen_office'] = None
+                data['__chosen_office'] = None
             return data
         except:
             return {}
@@ -132,9 +132,9 @@ def generate():
             # if anything breaks - just have it as is
             pass
     # process chosen office: substitute name with full information
-    if 'chosen_office' in context:
+    if '__chosen_office' in context:
         context['chosen_office'] = get_office_by_name(
-                context.get('chosen_office')) or get_office_by_name('Pracoviště Praha V.')
+                context.get('__chosen_office')) or get_office_by_name('Pracoviště Praha V.')
     # pass declination dicts if any present in context
     for key in [k for k in context if k.startswith('__declination')]:
         context[key.lstrip('__')] = context[key]
