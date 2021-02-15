@@ -26,9 +26,10 @@
     "Zaměstnanecká karta",
     "Modrá karta",
     "Trvalý pobyt",
-    "Povolení k dlouhodobému pobytu za účelem studia"
+    "Dlouhodobý pobyt za účelem studia",
+    "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka",
+    "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
   ],
   "__declination4": {"Zaměstnanecká karta": "Zaměstnaneckou kartu",
-                     "Modrá karta": "Modrou kartu",
-                     "Trvalý pobyt": "Trvalý pobyt"}
+                     "Modrá karta": "Modrou kartu"}
 }

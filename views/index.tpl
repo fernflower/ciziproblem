@@ -33,10 +33,13 @@
                 <ul class="list-group">
                   <li class="list-group-item"> permanent residence permit application - 60 days </li>
                   <li class="list-group-item"> blue card application - 90 days </li>
-                  <li class="list-group-item"> employee card application - 60 (90 in rare cases) </li>
-                  <li class="list-group-item"> long-term residence permit for the purpose of study - 60 days.</li>
+                  <li class="list-group-item"> employee card application - 60 days (90 days in rare cases) </li>
+                  <li class="list-group-item"> long-term residence permit for the purpose of study - 60 days</li>
+                  <li class="list-group-item"> long-term residence permit for the purpose of family reunification with scientific research visa holder - 60 days</li>
+                  <li class="list-group-item"> long-term residence permit for the purpose of family reunification with blue card holder - 90 days</li>
+                  <li class="list-group-item"><a href="https://www.mvcr.cz/clanek/lhuty-a-pocitani-casu.aspx?fbclid=IwAR31QGO7YUqOxqNYxWWwy47xO0YvhBjl0sqDe90OiTarYRMJcLVirZzFSkk">Deadlines information from the official mvcr.cz website</a></li>
                 </ul>
-                <p> If you are waiting longer - it is time to do something about it.</p>
+                <p class="card-text"> If you are waiting longer - it is time to do something about it.</p>
               </div>
               <div class="card-footer text-end">
                 <a href="/necinnost_Nin1" class="btn btn-danger"><i class="bi bi-arrow-right"></i></a>
