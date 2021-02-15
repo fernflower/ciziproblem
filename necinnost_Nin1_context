@@ -9,7 +9,8 @@
   "date": "01.01.01",
   "application_number": "OAM-424242",
   "application_date": "01.01.11",
-  "__name__": "Trvalý pobyt: Žádost o uplatnění opatření proti nečinnosti",
+  "residence_permit_type": "Zaměstnanecká karta",
+  "__name__": "Žádost o uplatnění opatření proti nečinnosti",
   "__postal_address__": "Ministerstvo vnitra, nám. Hrdinů 1634/3, poštovní schránka 155/SO, 140 21 Praha 4",
   "__datova_schranka__": "b78xtfa",
   "__link__": "https://www.mvcr.cz/clanek/komise-pro-rozhodovani-ve-vecech-pobytu-cizincu.aspx",
@@ -19,5 +20,16 @@
     "Female"
   ],
   "__date_date": true,
-  "__date_of_birth_date": true
+  "__date_of_birth_date": true,
+  "__application_date_date": true,
+  "__residence_permit_type_radio": [
+    "Zaměstnanecká karta",
+    "Modrá karta",
+    "Trvalý pobyt",
+    "Dlouhodobý pobyt za účelem studia",
+    "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka",
+    "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
+  ],
+  "__declination4": {"Zaměstnanecká karta": "Zaměstnaneckou kartu",
+                     "Modrá karta": "Modrou kartu"}
 }

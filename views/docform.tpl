@@ -123,7 +123,7 @@
       const formData = new FormData(this);
       formData.append('__form__', "{{ system_context.get('__name__') }}" );
       if (officeSelector) {
-        formData.append('chosen_office', officeSelector.value);
+        formData.append('__chosen_office', officeSelector.value);
       };
 
       fetch('/generate', { method: 'POST', body: formData })
