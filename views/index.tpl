@@ -59,12 +59,12 @@
           </div>
           <div class="col">
             <div class="card border-info">
-              <div class="card-header">COMING SOON: Long-term residence permit kind reminder - main application approved</div>
+              <div class="card-header">Long-term residence permit kind reminder - main application approved</div>
               <div class="card-body">
                 <p class="card-text">Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?</p>
               </div>
               <div class="card-footer text-end">
-                <a href="/kind_reminder_dlouhodoby_pobyt" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
+                <a href="/urychleni_rizeni" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>

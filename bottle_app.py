@@ -41,6 +41,10 @@ TEMPLATE_MAP = {
         "Žádost o uplatnění opatření proti nečinnosti": {
             "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_Nin1.docx",
             "context": "necinnost_Nin1_context"
+            },
+        "Žádost o urychlení řízení": {
+            "template": "zadost_urychleni_rizeni.docx",
+            "context": "urychleni_rizeni_context"
             }
         }
 env = jinja2.Environment(
@@ -98,6 +102,12 @@ def rodne_cislo():
 @route('/historie_pobytu')
 def historie_pobytu():
     context = _default_context('historie_pobytu_context')
+    return docform(context)
+
+
+@route('/urychleni_rizeni')
+def urychleni_rizeni():
+    context = _default_context('urychleni_rizeni_context')
     return docform(context)
 
 

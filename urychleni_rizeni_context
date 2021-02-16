@@ -1,0 +1,41 @@
+{
+  "name": "Harry James Potter",
+  "date_of_birth": "31.07.1980",
+  "nationality": "British",
+  "address": "4 Privet Drive",
+  "city": "London",
+  "gender": "Male",
+  "telephone": "123456789",
+  "date": "01.01.01",
+  "application_number": "OAM-424242",
+  "residence_permit_type": "Modrá karta",
+  "dependent_applicant_name": "Lily Luna Potter",
+  "dependent_relation": "dítě",
+  "dependent_applicant_gender": "Female",
+  "dependent_application_number": "OAM-2128506",
+  "__name__": "Žádost o urychlení řízení",
+  "__postal_address__": "minvnitra_offices_chooser",
+  "__datova_schranka__": "6bnaawp",
+  "__link__": "https://www.mvcr.cz/mvcren/docDetail.aspx?docid=21658458&doctype=ART",
+  "__authority__": "Ministerstvo vnitra",
+  "__gender_radio": [
+    "Male",
+    "Female"
+  ],
+  "__dependent_applicant_gender_radio": [
+    "Female",
+    "Male"
+  ],
+  "__dependent_relation_radio": [
+    "Child",
+    "Spouse"
+  ],
+  "__date_date": true,
+  "__date_of_birth_date": true,
+  "__residence_permit_type_radio": [
+    "Zaměstnanecká karta",
+    "Modrá karta"
+  ],
+  "__declination4": {"Zaměstnanecká karta": "Zaměstnaneckou kartu",
+                     "Modrá karta": "Modrou kartu"}
+}
