@@ -8,6 +8,7 @@
 
 * [Evgeny Kolesnikov](https://github.com/evgenyz)
   * Proof read english text
+  * Came up with the ciziproblem.cz domain name
 
 * [C1nde](https://github.com/C1nde)
   * Made the UI nicer & usable

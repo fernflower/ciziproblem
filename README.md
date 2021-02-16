@@ -25,9 +25,9 @@ You can also run the development version with `python bottle_app.py`, this will 
 
 ## To be done
 
-- [ ] Deploy at https://ciziproblem.cz
+- [x] Deploy at https://ciziproblem.cz
 - [x] Make webui more mature
 - [ ] i18n support, russian/english at least
 - [x] Add license
 - [ ] Add kind reminder for speeding up the process of permanent/long-term residence permit when the deadline has not yet passed
-- [ ] Add complaint for long-term residence permit
+- [x] Add complaint for long-term residence permit

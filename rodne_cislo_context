@@ -1,9 +1,11 @@
 {
   "name": "Harry James Potter",
+  "former_name": "",
   "date_of_birth": "31.07.1980",
-  "nationality": "British",
+  "place_of_birth": "Londýn",
+  "nationality": "Británie",
   "address": "4 Privet Drive",
-  "city": "London",
+  "city": "Londýn",
   "gender": "Male",
   "telephone": "123456789",
   "date": "01.01.01",

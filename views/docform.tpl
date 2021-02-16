@@ -22,7 +22,10 @@
   <body class="bg-light">
     <div class="container">
       <main>
-        <h2>{{ system_context.get('__name__') }}</h2>
+        <div class="row g-3">
+          <a href="/" class="btn btn-outline-primary">Go back</a>
+          <h2>{{ system_context.get('__name__') }}</h2>
+        </div>
 
         <div class="row g-3">
           <div class="col-md-7 col-lg-8 border p-3">
@@ -98,6 +101,9 @@
           </div>
         </div>
       </main>
+    </div>
+    <div class="col-xs-1 text-center pt-5">
+      <p class="text-muted small">Created by <a href="https://github.com/fernflower">fernflower</a>, 2021</p>
     </div>
   </body>
 
