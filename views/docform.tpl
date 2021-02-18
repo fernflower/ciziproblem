@@ -58,6 +58,9 @@
               <hr class="my-3">
               <button class="w-100 btn btn-primary btn-lg" type="submit">Generate</button>
             </form>
+            <p class="text-muted small text-center">We do not store the data you enter - the generated docx file on server is deleted once its contents are sent for you to download.
+If you are uncomfortable with entering any personal data you can download the default document filled in Harry Potter's name and change it to your liking.
+By entering your personal data you agree to Cizi problem processing it in accordance with Act No. 101/2000 Sb, Personal Data Protection Act.</p>
           </div>
 
           <div class="col-md-5 col-lg-4">
