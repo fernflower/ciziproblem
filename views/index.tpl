@@ -37,12 +37,34 @@
                   <li class="list-group-item"> long-term residence permit for the purpose of study - 60 days</li>
                   <li class="list-group-item"> long-term residence permit for the purpose of family reunification with scientific research visa holder - 60 days</li>
                   <li class="list-group-item"> long-term residence permit for the purpose of family reunification with blue card holder - 90 days</li>
-                  <li class="list-group-item"><a href="https://www.mvcr.cz/clanek/lhuty-a-pocitani-casu.aspx?fbclid=IwAR31QGO7YUqOxqNYxWWwy47xO0YvhBjl0sqDe90OiTarYRMJcLVirZzFSkk">Deadlines information from the official mvcr.cz website</a></li>
+                  <li class="list-group-item">
+                    <a href="https://www.mvcr.cz/clanek/lhuty-a-pocitani-casu.aspx?fbclid=IwAR31QGO7YUqOxqNYxWWwy47xO0YvhBjl0sqDe90OiTarYRMJcLVirZzFSkk">Deadlines information from the official mvcr.cz website</a>
+                  </li>
                 </ul>
                 <p class="card-text"> If you are waiting longer - it is time to do something about it.</p>
               </div>
               <div class="card-footer text-end">
                 <a href="/necinnost_Nin1" class="btn btn-danger"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-info">
+              <div class="card-header">Confirmation of current residence in the Czech Republic (potvrzení o současném pobytu)</div>
+              <div class="card-body">
+                <p class="card-text">When you have to confirm current residence in the Czech Republic. Usually issued the same day.</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/potvrzeni_o_soucasnem_pobytu" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="card border-info">
+              <div class="card-header">Certificate of residence in the Czech Republic (historie pobytu)</div>
+              <div class="card-body">
+                <p class="card-text">When you have to confirm the duration of your residence. Most typical usecase is to prove that you have spent N years in the Czech Republic. The waiting time can be up to 30 days.</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/historie_pobytu" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -58,24 +80,13 @@
             </div>
           </div>
           <div class="col">
-            <div class="card border-info">
+            <div class="card border-success">
               <div class="card-header">Long-term residence permit kind reminder - main application approved</div>
               <div class="card-body">
                 <p class="card-text">Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?</p>
               </div>
               <div class="card-footer text-end">
-                <a href="/urychleni_rizeni" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border-info">
-              <div class="card-header">Request official residence in the Czech Republic confirmation (historie pobytu)</div>
-              <div class="card-body">
-                <p class="card-text">When you have to confirm the duration of your residence in the Czech Republic.</p>
-              </div>
-              <div class="card-footer text-end">
-                <a href="/historie_pobytu" class="btn btn-info"><i class="bi bi-arrow-right"></i></a>
+                <a href="/urychleni_rizeni" class="btn btn-success"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>

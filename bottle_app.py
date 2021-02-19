@@ -35,9 +35,12 @@ TEMPLATE_MAP = {
         "Žádost o přidělení rodného čísla": {
             "template": "zadost_rodne_cislo.docx",
             "context": "rodne_cislo_context"},
-        "Potvrzení o pobytu (tzv. historie pobytu)": {
-            "template": "zadost_o_potvrzeni_o_pobytu.docx",
+        "Historie pobytu": {
+            "template": "zadost_o_historie_pobytu.docx",
             "context": "historie_pobytu_context"},
+        "Potvrzení o současném pobytu": {
+            "template": "zadost_potvrzeni_soucasneho_pobytu.docx",
+            "context": "potvrzeni_o_soucasnem_pobytu_context"},
         "Žádost o uplatnění opatření proti nečinnosti": {
             "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_Nin1.docx",
             "context": "necinnost_Nin1_context"
@@ -102,6 +105,12 @@ def rodne_cislo():
 @route('/historie_pobytu')
 def historie_pobytu():
     context = _default_context('historie_pobytu_context')
+    return docform(context)
+
+
+@route('/potvrzeni_o_soucasnem_pobytu')
+def potvrzeni_soucasny_pobyt():
+    context = _default_context('potvrzeni_o_soucasnem_pobytu_context')
     return docform(context)
 
 
