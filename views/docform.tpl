@@ -157,7 +157,7 @@ By entering your personal data you agree to Cizi problem processing it in accord
         if (Object.keys(data).length == 0) {
             chosenOfficeAddressDiv.style.display = "none";
         } else {
-          var address = data['territory'] + '<br>' + data['address'] + '<br>' + data['telephone'];
+          var address = (data['territory'] || '') + '<br>' + data['address'] + '<br>' + data['telephone'];
           chosenOffice.innerHTML = address;
           chosenOfficeAddressDiv.style.display = "block";
         }
