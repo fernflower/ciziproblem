@@ -1,0 +1,57 @@
+document:
+  name: "Žádost o urychlení řízení"
+  postal_address: "minvnitra_offices_chooser"
+  datova_schranka: "b78xtfa"
+  link: "https://www.mvcr.cz/mvcren/docDetail.aspx?docid=21658458&doctype=ART"
+  authority: "Ministerstvo vnitra"
+  declination:
+    4:
+      - before: "Zaměstnanecká karta"
+        after: "Zaměstnaneckou kartu"
+      - before: "Modrá karta"
+        after: "Modrou kartu"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: former_name
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: nationality
+        default: "Británie"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: telephone
+        default: "123456789"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: application_number
+        default: "OAM-424242"
+      - name: residence_permit_type
+        choices: 
+          - "Zaměstnanecká karta"
+          - "Modrá karta"
+        type: radio
+      - name: dependent_applicant_name
+        default: "Lily Luna Potter"
+      - name: dependent_relation
+        choices:
+          - Child
+          - Spouse
+        type: radio
+      - name: dependent_applicant_gender
+        choices:
+          - Female
+          - Male
+        type: radio
+      - name: dependent_application_number
+        default: "OAM-2128506"
