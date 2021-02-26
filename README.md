@@ -29,5 +29,6 @@ You can also run the development version with `python bottle_app.py`, this will 
 - [x] Make webui more mature
 - [ ] i18n support, russian/english at least
 - [x] Add license
-- [ ] Add kind reminder for speeding up the process of permanent/long-term residence permit when the deadline has not yet passed
+- [x] Add kind reminder for speeding up the process of permanent/long-term residence permit when the deadline has not yet passed
 - [x] Add complaint for long-term residence permit
+- [ ] Support pdf application templates
