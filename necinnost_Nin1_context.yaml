@@ -14,7 +14,6 @@ document:
     fields:
       - name: name
         default: "Harry James Potter"
-      - name: former_name
       - name: date_of_birth
         default: "31.07.1980"
         type: date
@@ -47,4 +46,6 @@ document:
           - "Dlouhodobý pobyt za účelem studia"
           - "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka"
           - "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
+          - "Dlouhodobý vízum za účelem studia"
+          - "Dlouhodobý vízum"
         type: radio
