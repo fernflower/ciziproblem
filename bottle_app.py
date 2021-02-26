@@ -14,13 +14,13 @@ import generate as gen
 
 # These are the fields that are not related to a specific form
 SYSTEM_CONTEXT = ["name", "postal_address", "datova_schranka", "link", "authority", "declination"]
-
+DATA_DIR = "./data"
 
 def get_form_context(filename):
     """Returns a list of form fields and a dict of system fields - a form context dict and a system context dict"""
     form_context = {}
     system_context = {}
-    with open(filename, encoding='utf-8') as f:
+    with open(os.path.join(DATA_DIR, 'contexts', filename), encoding='utf-8') as f:
         if filename.endswith('.yaml'):
             # context is a yaml file
             context = yaml.safe_load(f)
@@ -46,7 +46,7 @@ def get_form_context(filename):
 
 
 def get_offices_list():
-    with open('minvnitra_offices', encoding='utf8') as f:
+    with open(os.path.join(DATA_DIR, 'minvnitra_offices'), encoding='utf8') as f:
         offices = yaml.safe_load(f)
     return offices['offices']
 
@@ -175,6 +175,7 @@ def generate():
     context.update(user_input_vetted)
     _apply_post_processing_hacks(context, form_fields)
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
+        docx_template_name = os.path.join(DATA_DIR, "application_templates", docx_template_name)
         gen.generate_doc(docx_template_name, context, temp_doc.name)
         return static_file(
                 temp_doc.name.rsplit(os.path.sep)[-1],
