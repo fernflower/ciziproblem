@@ -1,0 +1,30 @@
+document:
+  name: "Historie pobytu"
+  postal_address: "minvnitra_offices_chooser"
+  datova_schranka: "6bnaawp"
+  link: "https://www.mvcr.cz/clanek/potvrzeni-o-pobytu.aspx"
+  authority: "Ministerstvo vnitra"
+  form:
+    fields:
+      - name: name
+        default: "Harry"
+      - name: surname
+        default: "Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: place_of_birth
+        default: "Londýn"
+      - name: nationality
+        default: "Británie"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: name_of_czech_authority
+        default: "Škola čar a kouzel v Bradavicích"
+      - name: purpose
+        default: "Potřebuji prokázat, že jsem hlášen na území České republiky k pobytu, a už uplynulo 365 dnů ode dne hlášení"

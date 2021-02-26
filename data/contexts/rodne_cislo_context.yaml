@@ -1,0 +1,32 @@
+document:
+  name: "Žádost o přidělení rodného čísla"
+  postal_address: "minvnitra_offices_chooser"
+  datova_schranka: "6bnaawp"
+  link: "https://www.mvcr.cz/mvcren/docDetail.aspx?docid=21658458&doctype=ART"
+  authority: "Ministerstvo vnitra"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: former_name
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: place_of_birth
+        default: "Londýn"
+      - name: nationality
+        default: "Británie"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: telephone
+        default: "123456789"
+      - name: date
+        default: "01.01.01"
+        type: date

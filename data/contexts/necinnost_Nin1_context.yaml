@@ -1,0 +1,51 @@
+document:
+  name: "Žádost o uplatnění opatření proti nečinnosti"
+  postal_address: "Ministerstvo vnitra, nám. Hrdinů 1634/3, poštovní schránka 155/SO, 140 21 Praha 4"
+  datova_schranka: "b78xtfa"
+  link: "https://www.mvcr.cz/clanek/komise-pro-rozhodovani-ve-vecech-pobytu-cizincu.aspx"
+  authority: "Komise pro rozhodování ve věcech pobytu cizinců"
+  declination:
+    4:
+      - before: "Zaměstnanecká karta"
+        after: "Zaměstnaneckou kartu"
+      - before: "Modrá karta"
+        after: "Modrou kartu"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: nationality
+        default: "Británie"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: telephone
+        default: "123456789"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: application_number
+        default: "OAM-424242"
+      - name: application_date
+        default: "01.01.11"
+        type: date
+      - name: residence_permit_type
+        choices: 
+          - "Zaměstnanecká karta"
+          - "Modrá karta"
+          - "Trvalý pobyt"
+          - "Dlouhodobý pobyt za účelem studia"
+          - "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka"
+          - "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
+          - "Dlouhodobý vízum za účelem studia"
+          - "Dlouhodobý vízum"
+        type: radio

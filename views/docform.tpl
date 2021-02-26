@@ -140,7 +140,7 @@ By entering your personal data you agree to Cizi problem processing it in accord
         resp.blob()
       ))
       .then((blob) => {
-        saveData(blob, '{{ name }}.docx');
+        saveData(blob, "{{ system_context.get('__name__') }}.docx");
       });
     };
 
