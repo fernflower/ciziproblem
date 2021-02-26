@@ -17,7 +17,7 @@ SYSTEM_CONTEXT = ["name", "postal_address", "datova_schranka", "link", "authorit
 
 
 def get_form_context(filename):
-    """Returns 2 dicts - a form context dict and a system context dict"""
+    """Returns a list of form fields and a dict of system fields - a form context dict and a system context dict"""
     form_context = {}
     system_context = {}
     with open(filename, encoding='utf-8') as f:
@@ -38,13 +38,11 @@ def get_form_context(filename):
                         system_context['__{}__'.format(key)] = document[key]
                 # process form fields
                 form_fields = document['form'].get('fields', [])
-                for field in form_fields:
-                    form_context[field['name']] = field
             except KeyError as err:
                 raise exc.ConfigError("{} raised when processing {}".format(err, filename))
         else:
             raise NotImplemented("Only yaml contexts are supported")
-        return form_context, system_context
+        return form_fields, system_context
 
 
 def get_offices_list():
@@ -79,25 +77,25 @@ env = jinja2.Environment(
 )
 
 
-def _prepare_for_front(form_context):
+def _prepare_for_front(form_fields):
     #j2 template expects a straightforward structure of { elemname: {'value': .., 'input': ..} }
     context_to_pass = {}
-    for name, field_data in form_context.items():
+    for field in form_fields:
         # check if specific type of input is required, if no given it will be text
-        elem = {'value': field_data.get("default", ""), 'input': "text"}
-        if field_data.get("type", "text") != "text":
-            if field_data["type"] == "radio":
+        elem = {'value': field.get("default", ""), 'input': "text"}
+        if field.get("type", "text") != "text":
+            if field["type"] == "radio":
                 elem["input"] = "radio"
-                elem["ids"] = field_data["choices"]
-            elif field_data["type"] == "date":
+                elem["ids"] = field["choices"]
+            elif field["type"] == "date":
                 elem["input"] = "date"
-        context_to_pass[name] = elem
+        context_to_pass[field["name"]] = elem
     return context_to_pass
 
 
-def docform(form_context, system_context):
+def docform(form_fields, system_context):
     template = env.get_or_select_template('docform.tpl')
-    context_to_pass = _prepare_for_front(form_context)
+    context_to_pass = _prepare_for_front(form_fields)
     return template.render(context=context_to_pass,
                            system_context=system_context,
                            minvnitra_offices=get_offices_list())
@@ -145,10 +143,10 @@ def get_office_address():
     return json.dumps(office or {})
 
 
-def _apply_post_processing_hacks(context):
+def _apply_post_processing_hacks(context, form_fields):
     "Hacks to convert data received from frontend to the expected form in docx templates"
     # transition from YYYY-MM-DD dates to expected DD.MM.YYYY
-    for date_key in [k for k in context if context.get('__{}_date'.format(k))]:
+    for date_key in [f["name"] for f in form_fields if f.get("type") == "date"]:
         try:
             context[date_key] = datetime.datetime.strptime(context[date_key], '%Y-%M-%d').strftime('%d.%M.%Y')
         except (TypeError, ValueError):
@@ -168,14 +166,14 @@ def generate():
     context_name = TEMPLATE_MAP.get(form_name, {}).get('context')
     if not docx_template_name or not context_name:
         raise ConfigError("No routing specified for {}".format(form_name))
-    form_context, system_context = get_form_context(context_name)
+    form_fields, system_context = get_form_context(context_name)
     # vet against default context keys
-    allowed_keys = list(form_context.keys()) + ['__chosen_office']
+    allowed_keys = [f["name"] for f in form_fields] + ['__chosen_office']
     user_input_vetted = {k: v for k, v in data.iteritems() if k in allowed_keys and v}
-    context = {v["name"]: v.get("default", "") for k, v in form_context.items()}
+    context = {f["name"]: f.get("default", "") for f in form_fields}
     context.update(system_context)
     context.update(user_input_vetted)
-    _apply_post_processing_hacks(context)
+    _apply_post_processing_hacks(context, form_fields)
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         gen.generate_doc(docx_template_name, context, temp_doc.name)
         return static_file(
