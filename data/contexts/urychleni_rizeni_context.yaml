@@ -37,7 +37,7 @@ document:
       - name: application_number
         default: "OAM-424242"
       - name: residence_permit_type
-        choices: 
+        choices:
           - "Zaměstnanecká karta"
           - "Modrá karta"
         type: radio

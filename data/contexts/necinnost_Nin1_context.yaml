@@ -39,13 +39,13 @@ document:
         default: "01.01.11"
         type: date
       - name: residence_permit_type
-        choices: 
+        choices:
           - "Zaměstnanecká karta"
           - "Modrá karta"
           - "Trvalý pobyt"
           - "Dlouhodobý pobyt za účelem studia"
           - "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka"
           - "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
-          - "Dlouhodobý vízum za účelem studia"
-          - "Dlouhodobý vízum"
+          - "Dlouhodobé vízum za účelem studia"
+          - "Dlouhodobé vízum"
         type: radio
