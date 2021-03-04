@@ -137,7 +137,7 @@ def urychleni_rizeni():
 
 
 @route('/covid19_cestovani_mimo_okres')
-def urychleni_rizeni():
+def covid19_prohlaseni():
     return docform(*get_form_context('covid19_okresy_prohlaseni.yaml'))
 
 
