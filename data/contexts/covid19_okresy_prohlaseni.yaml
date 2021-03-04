@@ -1,0 +1,37 @@
+document:
+  name: "Cestování mimo okres: prohlášení"
+  link: "https://okresy.mvcr.cz/"
+  authority: "Ministerstvo vnitra"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: address
+        default: "4 Privet Drive"
+      - name: passport_or_id_card
+        default: "42"
+      - name: purpose
+        choices:
+          - "doctor"
+          - "childcare/vet services"
+          - "administrative"
+          - "funeral"
+          - "study"
+          - "mass event"
+          - "volunteering"
+          - "departure from the Czech Republic"
+          - "other special reasons"
+        type: radio
+      - name: other_reasons
+      - name: other_reasons_contact_name
+      - name: other_reasons_contact_telephone
+      - name: destination_address
+        default: "12 Grimmauld Place"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: time
+        default: "11-59"
