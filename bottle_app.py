@@ -12,9 +12,8 @@ import exc
 import generate as gen
 
 
-# These are the fields that are not related to a specific form
-SYSTEM_CONTEXT = ["name", "postal_address", "datova_schranka", "link", "authority", "declination"]
 DATA_DIR = "./data"
+
 
 def get_form_context(filename):
     """Returns a list of form fields and a dict of system fields - a form context dict and a system context dict"""
@@ -28,12 +27,16 @@ def get_form_context(filename):
             try:
                 # transform system keys to __key__
                 document = context['document']
-                for key in [k for k in SYSTEM_CONTEXT if k in document]:
+                for key in [k for k in document if k != "form"]:
                     # flatten dict in case of declinations - pass a dict of declinationPAD
                     if key == "declination":
                         for pad, values in document["declination"].items():
                             declination_key = "declination{}".format(pad)
                             system_context[declination_key] = {v["before"]: v["after"] for v in values}
+                    elif key.endswith("_map"):
+                        # that is a mapping to be used in the templates. Substitute yaml dict keys with the value of
+                        # the 'name' parameter of each item while keeping the values as is
+                        system_context[key] = {v['name']: v for k, v in document[key].items()}
                     else:
                         system_context['__{}__'.format(key)] = document[key]
                 # process form fields
