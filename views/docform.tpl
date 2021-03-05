@@ -70,10 +70,12 @@ By entering your personal data you agree to Cizi problem processing it in accord
               </h4>
 
               <hr class="my-3">
+              {% if system_context.get('__datova_schranka__') %}
               <div>
                 <h5>ID datové schránky</h5>
                 <p class="m-0">{{ system_context.get('__datova_schranka__') }}</p>
               </div>
+              {% endif %}
               {% if system_context.get('__postal_address__') == 'minvnitra_offices_chooser' %}
               <div class="mv-3 p-3">
                 <form id="officeSelectorForm">
@@ -89,7 +91,7 @@ By entering your personal data you agree to Cizi problem processing it in accord
                 <h5>Address</h5>
                 <address id="chosenOfficeAddress"></address>
               </div>
-              {% else %}
+              {% elif system_context.get('__postal_address__') %}
               <div>
                 <h5>Address</h5>
                 <address>

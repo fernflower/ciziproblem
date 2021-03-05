@@ -69,13 +69,13 @@
             </div>
           </div>
           <div class="col">
-            <div class="card border-warning">
-              <div class="card-header">Rodné číslo assignment application</div>
+            <div class="card border-danger">
+              <div class="card-header">COVID-19 Affidavit for leaving the home region</div>
               <div class="card-body">
-                <p class="card-text">Rodné číslo is the unique identifier that every institution in the Czech Republic will want from you. Unless requested directly the process of assignment may take from several months to several years.</p>
+                <p class="card-text">From 01/03/21 till 23/03/21 your home district can be left only for a specific reason and you should have a written affidavit with you to show to the police.</p>
               </div>
               <div class="card-footer text-end">
-                <a href="/rodne_cislo_application" class="btn btn-warning"><i class="bi bi-arrow-right"></i></a>
+                <a href="/covid19_cestovani_mimo_okres" class="btn btn-danger"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -87,6 +87,17 @@
               </div>
               <div class="card-footer text-end">
                 <a href="/urychleni_rizeni" class="btn btn-success"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-warning">
+              <div class="card-header">Rodné číslo assignment application</div>
+              <div class="card-body">
+                <p class="card-text">Rodné číslo is the unique identifier that every institution in the Czech Republic will want from you. Unless requested directly the process of assignment may take from several months to several years.</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/rodne_cislo_application" class="btn btn-warning"><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>

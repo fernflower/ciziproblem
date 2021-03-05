@@ -69,6 +69,10 @@ TEMPLATE_MAP = {
         "Žádost o urychlení řízení": {
             "template": "zadost_urychleni_rizeni.docx",
             "context": "urychleni_rizeni_context.yaml"
+            },
+        "Cestování mimo okres: prohlášení": {
+            "template": "COVID19-okresy_formular_cesta_mimo_okres.docx",
+            "context": "covid19_okresy_prohlaseni.yaml"
             }
         }
 env = jinja2.Environment(
@@ -130,6 +134,11 @@ def potvrzeni_soucasny_pobyt():
 @route('/urychleni_rizeni')
 def urychleni_rizeni():
     return docform(*get_form_context('urychleni_rizeni_context.yaml'))
+
+
+@route('/covid19_cestovani_mimo_okres')
+def covid19_prohlaseni():
+    return docform(*get_form_context('covid19_okresy_prohlaseni.yaml'))
 
 
 def get_office_by_name(name):
