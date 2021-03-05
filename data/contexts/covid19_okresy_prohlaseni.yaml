@@ -15,13 +15,13 @@ document:
         default: "42"
       - name: purpose
         choices:
-          - "doctor"
+          - "doctor's appointment"
           - "childcare/vet services"
           - "administrative"
           - "funeral"
           - "study"
           - "mass event"
-          - "volunteering"
+          - "healthcare/delivery/public transport worker or volunteering"
           - "departure from the Czech Republic"
           - "other special reasons"
         type: radio
