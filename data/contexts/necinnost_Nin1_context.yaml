@@ -40,9 +40,17 @@ document:
         deadline: "90 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
       DP_family:
-        name: "Dlouhodobý pobyt za účelem společného soužití"
+        name: "Dlouhodobý pobyt za účelem společného soužití rodiny"
         deadline: "270 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+      DP_EU_resident:
+        name: "Dlouhodobý pobyt rezidenta jiného členského státu Evropské unie"
+        deadline: "120 dnů"
+        law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+      PP:
+        name: "Povolení k přechodnému pobytu"
+        deadline: "60 dnů"
+        law: "§ 169t odst. 6 písm. f) z. č. 326/1999 Sb"
       DV_study:
         name: "Dlouhodobé vízum za účelem studia"
         deadline: "60 dnů"
@@ -89,7 +97,9 @@ document:
           - "Dlouhodobý pobyt za účelem studia"
           - "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka"
           - "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
-          - "Dlouhodobý pobyt za účelem společného soužití"
+          - "Dlouhodobý pobyt za účelem společného soužití rodiny"
+          - "Dlouhodobý pobyt rezidenta jiného členského státu Evropské unie"
+          - "Povolení k přechodnému pobytu"
           - "Dlouhodobé vízum za účelem studia"
           - "Dlouhodobé vízum"
         type: radio

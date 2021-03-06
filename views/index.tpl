@@ -37,8 +37,10 @@
                   <li class="list-group-item">employee card application - 60 days (120 days in some cases)</li>
                   <li class="list-group-item">long-term residence permit for the purpose of study - 60 days</li>
                   <li class="list-group-item">long-term residence permit for the purpose of family reunification with scientific research visa holder - 60 days</li>
-                  <li class="list-group-item"> long-term residence permit for the purpose of family reunification with blue card holder - 90 days</li>
+                  <li class="list-group-item">long-term residence permit for the purpose of family reunification with blue card holder - 90 days</li>
                   <li class="list-group-item">long-term residence permit for the purpose of family reunification - 270 days</li>
+                  <li class="list-group-item">long-term residence permit for residents of other EU countries - 120 days</li>
+                  <li class="list-group-item">povolení k přechodnému pobytu - 60 days</li>
                   <li class="list-group-item">long-term visa for the purpose of study - 60 days</li>
                   <li class="list-group-item">long-term visa - 90 days (120 in some cases)</li>
                   <li class="list-group-item">
