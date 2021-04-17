@@ -5,60 +5,130 @@ document:
   link: "https://www.mvcr.cz/clanek/komise-pro-rozhodovani-ve-vecech-pobytu-cizincu.aspx"
   authority: "Komise pro rozhodování ve věcech pobytu cizinců"
   declination:
+    2:
+      - before: "nezletilá"
+        after: "nezletilé"
+      - before: "nezletilý"
+        after: "nezletilého"
     4:
       - before: "Zaměstnanecká karta"
         after: "Zaměstnaneckou kartu"
       - before: "Modrá karta"
         after: "Modrou kartu"
+      - before: "dcera"
+        after: "dceru"
+      - before: "syn"
+        after: "syna"
+      - before: "nezletilá"
+        after: "nezletilou"
+      - before: "nezletilý"
+        after: "nezletilého"
+      - before: "Dlouhodobý pobyt dětí narozených na území"
+        after: "Dlouhodobý pobyt"
+    4as:
+      - before: "сizinec narozený na území ČR"
+        after: ", jako pro cizince narozeného na území ČR,"
+      - before: "cizinka narozená na území ČR"
+        after: ", jako pro cizinku narozenou na území ČR,"
+
   residence_deadline_map:
       Extend:
         name: "Prodloužení doby platnosti průkazu o povolení k pobytu"
         deadline: "30 dnů"
-        law: "§ 71 zákona č. 500/2004 Sb., Správní řád"
+        law: "§ 71 zákona č. 500/2004 Sb., správního řádu"
+        as: ""
       ZK:
         name: "Zaměstnanecká karta"
-        deadline: "60 dnů ode dne podání žádosti nebo 90 dnů ve zvlášť složitých případech, nebo pokud ministerstvo požádalo o vydání závazného stanoviska Úřad práce České republiky"
+        deadline: "60 dnů ode dne podání žádosti (odstranění vad žádosti), nebo 90 dnů ve zvlášť složitých případech, nebo pokud ministerstvo požádalo o vydání závazného stanoviska Úřad práce České republiky"
         law: "§ 169t odst. 6 pism. c) z. č. 326/1999 Sb"
+        as: ""
       MK:
         name: "Modrá karta"
         deadline: "90 dnů"
         law: "§ 169t odst. 6 písm. d) z. č. 326/1999 Sb"
+        as: ""
       TP:
         name: "Trvalý pobyt"
         deadline: "60 dnů"
         law: "§ 169t odst. 6 písm. g) z. č. 326/1999 Sb"
+        as: ""
       DP_study:
         name: "Dlouhodobý pobyt za účelem studia"
         deadline: "60 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       DP_family_science:
         name: "Dlouhodobý pobyt rodinného příslušníka výzkumného pracovníka"
         deadline: "60 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       DP_family_MK:
         name: "Dlouhodobý pobyt za účelem společného soužití rodiny s držitelem modré karty na území"
         deadline: "90 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       DP_family:
         name: "Dlouhodobý pobyt za účelem společného soužití rodiny"
         deadline: "270 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       DP_EU_resident:
         name: "Dlouhodobý pobyt rezidenta jiného členského státu Evropské unie"
         deadline: "120 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       PP:
         name: "Povolení k přechodnému pobytu"
         deadline: "60 dnů"
         law: "§ 169t odst. 6 písm. f) z. č. 326/1999 Sb"
+        as: ""
       DV_study:
         name: "Dlouhodobé vízum za účelem studia"
         deadline: "60 dnů"
         law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: ""
       DV:
         name: "Dlouhodobé vízum"
-        deadline: "90 dnů ode dne podání žádosti, nebo 120 dnů ve zvlášť složitých případech"
+        deadline: "90 dnů ode dne podání žádosti (odstranění vad žádosti) nebo 120 dnů ve zvlášť složitých případech"
         law: "§ 169t odst. 2 z. č. 326/1999 Sb"
+        as: ""
+      DP_child_born_in_CZ:
+        name: "Dlouhodobý pobyt dětí narozených na území"
+        deadline: "60 dnů"
+        law: "§ 169t odst. 6 písm. a) z. č. 326/1999 Sb"
+        as: "foreigner_born_in_CZ"
+
+  persons_map:
+      zs:
+        name: "zakonny_zastupce"
+        Male: "zákonný zástupce"
+        Female: "zákonná zástupkyně"
+      parent:
+        name: "parent"
+        Male: "otec"
+        Female: "matka"
+      nezl:
+        name: "nezletily"
+        Male: "nezletilý"
+        Female: "nezletilá"
+      child:
+        name: "child"
+        Male: "syn"
+        Female: "dcera"
+      foreigner_born_in_CZ:
+        name: "foreigner_born_in_CZ"
+        Male: "сizinec narozený na území ČR"
+        Female: "cizinka narozená na území ČR"
+      verb_gender:
+        name: "verb_gender"
+        Male: ""
+        Female: "a"
+
+      #TODO null check somewhere instead of this
+      empty:
+        name: ""
+        Male: ""
+        Female: ""
 
   form:
     fields:
@@ -88,6 +158,44 @@ document:
       - name: application_date
         default: "01.01.11"
         type: date
+
+      - name: vady_zadosti_checkbox
+        choices:
+          - False
+          - True
+        type: radio
+      - name: vady_zadosti_documents
+        default: "originál cestovního pasu"
+      - name: vady_zadosti_resolution_date
+        default: "01.02.2021"
+        type: date
+
+      - name: nezletily_checkbox
+        choices:
+          - False
+          - True
+        type: radio
+
+      - name: nezletily_name
+        default: "Albus Severus Potter"
+      - name: nezletily_date_of_birth
+        default: "01.01.2021"
+        type: date
+      - name: nezletily_nationality
+        default: "Austrálie"
+      - name: nezletily_address
+        default: "Staromak, Praha 1, 11000"
+      - name: nezletily_gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: nezletily_relation
+        choices:
+          - Child
+          - Other
+        type: radio
+
       - name: residence_permit_type
         choices:
           - "Prodloužení doby platnosti průkazu o povolení k pobytu"
@@ -102,4 +210,5 @@ document:
           - "Povolení k přechodnému pobytu"
           - "Dlouhodobé vízum za účelem studia"
           - "Dlouhodobé vízum"
+          - "Dlouhodobý pobyt dětí narozených na území"
         type: radio
