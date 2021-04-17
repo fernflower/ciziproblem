@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import collections
 import datetime
 import jinja2
@@ -182,7 +184,7 @@ def generate():
     docx_template_name = TEMPLATE_MAP.get(form_name, {}).get('template')
     context_name = TEMPLATE_MAP.get(form_name, {}).get('context')
     if not docx_template_name or not context_name:
-        raise ConfigError("No routing specified for {}".format(form_name))
+        raise exc.ConfigError("No routing specified for {}".format(form_name))
     form_fields, system_context = get_form_context(context_name)
     # vet against default context keys
     allowed_keys = [f["name"] for f in form_fields] + ['__chosen_office']
