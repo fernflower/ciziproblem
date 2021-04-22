@@ -87,15 +87,17 @@ env = jinja2.Environment(
 def _prepare_for_front(form_fields):
     #j2 template expects a straightforward structure of { elemname: {'value': .., 'input': ..} }
     context_to_pass = {}
+    allowed_types = ["radio", "date", "checkbox", "text"]
     for field in form_fields:
         # check if specific type of input is required, if no given it will be text
         elem = {'value': field.get("default", ""), 'input': "text"}
+        if field.get('conditional'):
+            elem['conditional'] = field.get('conditional')
         if field.get("type", "text") != "text":
+            if field["type"] in allowed_types:
+                elem["input"] = field["type"]
             if field["type"] == "radio":
-                elem["input"] = "radio"
                 elem["ids"] = field["choices"]
-            elif field["type"] == "date":
-                elem["input"] = "date"
         context_to_pass[field["name"]] = elem
     return context_to_pass
 
@@ -168,6 +170,9 @@ def _apply_post_processing_hacks(context, form_fields):
     if '__chosen_office' in context:
         context['chosen_office'] = get_office_by_name(
                 context.get('__chosen_office')) or get_office_by_name('Pracoviště Praha V.')
+    # add _checkbox to active checkbox fields
+    for checkbox in [f for f in form_fields if f.get("type") == "checkbox"]:
+        context['{}_checkbox'.format(checkbox['name'])] = 'True' if context[checkbox['name']] else 'False'
 
 
 @route('/generate', method="POST")

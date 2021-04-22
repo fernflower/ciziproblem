@@ -88,6 +88,36 @@ document:
       - name: application_date
         default: "01.01.11"
         type: date
+
+      # An optional control if an application was sent on behalf of a child
+      - name: nezletily
+        type: checkbox
+      - name: nezletily_name
+        default: "Albus Severus Potter"
+        conditional: nezletily
+      - name: nezletily_date_of_birth
+        default: "01.01.2021"
+        type: date
+        conditional: nezletily
+      - name: nezletily_nationality
+        default: "Austrálie"
+        conditional: nezletily
+      - name: nezletily_address
+        default: "Staromak, Praha 1, 11000"
+        conditional: nezletily
+      - name: nezletily_gender
+        choices:
+          - Male
+          - Female
+        type: radio
+        conditional: nezletily
+      - name: nezletily_relation
+        choices:
+          - Child
+          - Other
+        type: radio
+        conditional: nezletily
+
       - name: residence_permit_type
         choices:
           - "Prodloužení doby platnosti průkazu o povolení k pobytu"

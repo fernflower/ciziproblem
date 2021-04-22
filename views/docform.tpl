@@ -10,6 +10,7 @@
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
     <style type="text/css">
       body {
@@ -32,6 +33,7 @@
             <form id="formTemplate">
               {%- for key, value in context.items() %}
                 {%- if value.get('input') == 'radio' %}
+                  <div class="form-group {{ 'conditional-' + value.get('conditional') if value.get('conditional') else '' }}" style="display:{{'block' if not value.get('conditional') else 'none'}}" >
                   <fieldset class="row mb-3">
                     <legend class="col-form-label col-sm-2 pt-0">{{ key | replace('_', ' ') | capitalize }}</legend>
                     <div class="col-sm-10">
@@ -45,12 +47,24 @@
                       {%- endfor %}
                     </div>
                   </fieldset>
+                  </div>
+                {% elif value.get('input') == 'checkbox' %}
+                  <div class="form-group">
+                  <div class="row mb-3 ">
+                    <label for="input-{{ key }}" class="col-sm-2 col-form-label">{{ key | replace('_', ' ') | capitalize }}</label>
+                    <div class="col-sm-10">
+                      <input type="{{ value.get('input') }}" class="form-check conditional-switch-{{key}}" id="input-{{ key }}" name="{{ key }}" placeholder="{{ value.get('value') }}" />
+                    </div>
+                  </div>
+                  </div>
                 {% else %}
+                  <div class="form-group {{ 'conditional-' + value.get('conditional') if value.get('conditional') else '' }}" style="display:{{'block' if not value.get('conditional') else 'none'}}" >
                   <div class="row mb-3">
                     <label for="input-{{ key }}" class="col-sm-2 col-form-label">{{ key | replace('_', ' ') | capitalize }}</label>
                     <div class="col-sm-10">
-                      <input type="{{ value.get('input') }}" class="form-control" id="input-{{ key }}" name="{{ key }}" placeholder="{{ value.get('value') }}" />
+                      <input type="{{ value.get('input') }}" class="form-control {{ "conditional-" + value.get('conditional') if value.get('conditional') else "" }}" id="input-{{ key }}" name="{{ key }}" placeholder="{{ value.get('value') }}" />
                     </div>
+                  </div>
                   </div>
                 {% endif %}
               {%- endfor %}
@@ -111,6 +125,17 @@ By entering your personal data you agree to Cizi problem processing it in accord
       <p class="text-muted small">Created by <a href="https://github.com/fernflower">fernflower</a>, 2021</p>
     </div>
   </body>
+
+  <script>
+    {%- for key, value in context.items() %}
+      {% if value.get('input') == 'checkbox' %}
+        $("input.conditional-switch-{{ key }}").on('change', function () {
+          var condId = $("div.conditional-{{ key }}");
+          condId.css("display", condId.css("display") === 'none' ? '' : 'none');
+        });
+      {% endif %}
+    {%- endfor -%}
+  </script>
 
   <script>
     const saveData = (function () {
