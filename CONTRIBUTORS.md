@@ -12,3 +12,7 @@
 
 * [C1nde](https://github.com/C1nde)
   * Made the UI nicer & usable
+
+* [vgrigoriev](https://github.com/vgrigoriev)
+  * Added newborn child application
+  * Introduced apply-on-behalf and vady-zadosti features
