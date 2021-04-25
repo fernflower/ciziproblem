@@ -159,18 +159,16 @@ document:
         default: "01.01.11"
         type: date
 
-      - name: vady_zadosti_checkbox
-        choices:
-          - False
-          - True
-        type: radio
+      - name: vady_zadosti
+        type: checkbox
       - name: vady_zadosti_documents
         default: "originál cestovního pasu"
+        conditional: vady_zadosti
       - name: vady_zadosti_resolution_date
         default: "01.02.2021"
         type: date
+        conditional: vady_zadosti
 
-      # An optional control if an application was sent on behalf of a child
       - name: nezletily
         type: checkbox
       - name: nezletily_name
