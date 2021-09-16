@@ -1,0 +1,32 @@
+document:
+  name: "Žádost o vydání potvrzení o daňovém domicilu"
+  authority: "Finanční úřad"
+  link: "https://www.statnisprava.cz/rstsp/ciselniky.nsf/i/d0027?opendocument&:CZ010"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: rodne_cislo
+        default: "8007314249"
+      - name: address
+        default: "4 Privet Drive"
+      - name: address_abroad
+        default: "Durmstrang Institute, far north of Europe"
+      - name: city
+        default: "Londýn"
+      - name: country_of_origin
+        default: "Velká Británie"
+      - name: purpose
+        default: "pro správce daně"
+      - name: year
+        default: 2021
+      - name: phone
+        default: "123456789"
+      - name: email
+        default: "harrypotter@seznam.cz"
+      - name: date
+        default: "01.01.01"
+        type: date
