@@ -1,0 +1,39 @@
+document:
+  name: "Žádost o vydání potvrzení o daňovém domicilu"
+  authority: "Finanční úřad"
+  datova_schranka: <a href='https://www.financnisprava.cz/assets/cs/prilohy/de-datove-schranky/Identifikacni_kody_FR_a_FU.pdf' target='_blank'>Datová schránka IDs of all branches</a>
+  link: "https://www.statnisprava.cz/rstsp/ciselniky.nsf/i/d0027?opendocument&:CZ010"
+  notes: >
+    100 czk should be sent to the bank account of your
+    <a href='https://www.financnisprava.cz/assets/cs/prilohy/d-placeni-dani/bankovni_ucty_2021_Priloha_1.pdf' target="_blank">Finanční úřad</a>.
+    Use <b>3711</b> bank account prefix and your <b>Rodné číslo</b> as Variabilní symbol.</br>
+    For example, if you are located in Prague the bank account number is <b>3711-77628031/0710</b>;
+    for Brno it's <b>3711-77628621/0710</b>.
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: rodne_cislo
+        default: "8007314249"
+      - name: address
+        default: "4 Privet Drive"
+      - name: address_abroad
+        default: "Durmstrang Institute, far north of Europe"
+      - name: city
+        default: "Londýn"
+      - name: country_of_origin
+        default: "Velká Británie"
+      - name: purpose
+        default: "pro správce daně"
+      - name: year
+        default: 2021
+      - name: phone
+        default: "123456789"
+      - name: email
+        default: "harrypotter@seznam.cz"
+      - name: date
+        default: "01.01.01"
+        type: date

@@ -107,6 +107,17 @@
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="card border-warning">
+              <div class="card-header">Potvrzení o daňovém domicilu</div>
+              <div class="card-body">
+                <p class="card-text">This confirmation is likely to be requested by your employer's financial advisor.</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/danovy_domicil" class="btn btn-warning"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
