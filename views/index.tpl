@@ -109,6 +109,17 @@
           </div>
           <div class="col">
             <div class="card border-warning">
+              <div class="card-header">Rodičovský příspěvek application</div>
+              <div class="card-body">
+                <p class="card-text">Rodičovský příspěvek is the parental leave allowance that parents are entitled to until their youngest kid turns 4. Everyone is entitled to 10 000 czk/month (no proof of earlier income needed), a higher amount per month up to 70% of reducted salary can be requested (proof of income to the day the child is born required).</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/rodicovsky_prispevek" class="btn btn-warning"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-warning">
               <div class="card-header">Potvrzení o daňovém domicilu</div>
               <div class="card-body">
                 <p class="card-text">This confirmation is likely to be requested by your employer's financial advisor.</p>

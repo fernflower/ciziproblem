@@ -82,6 +82,10 @@ TEMPLATE_MAP = {
         "Žádost o vydání potvrzení o daňovém domicilu": {
             "template": "zadost_domicil.docx",
             "context": "domicil_context.yaml"
+            },
+        "Upozornění na splnění podmínek pro přiznání dávek státní sociální podpory": {
+            "template": "upozorneni_na_splneni_podminek_ssp.docx",
+            "context": "rodicovsky_prispevek_context.yaml"
             }
         }
 env = jinja2.Environment(
@@ -151,9 +155,15 @@ def urychleni_rizeni():
 def covid19_prohlaseni():
     return docform(*get_form_context('covid19_okresy_prohlaseni.yaml'))
 
+
 @route('/danovy_domicil')
 def danovy_domicil():
     return docform(*get_form_context('domicil_context.yaml'))
+
+
+@route('/rodicovsky_prispevek')
+def danovy_domicil():
+    return docform(*get_form_context('rodicovsky_prispevek_context.yaml'))
 
 
 def get_office_by_name(name):

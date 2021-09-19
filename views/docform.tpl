@@ -92,7 +92,11 @@ By entering your personal data you agree to Cizi problem processing it in accord
               {% endif %}
               {% if system_context.get('__notes__') %}
               <div>
-                <p class="m-0">{{ system_context.get('__notes__') }}</p>
+                <p class="m-0">
+                  {%- for line in system_context.get('__notes__', '').split('\n') %}
+                   {{- line -}}<br />
+                  {%- endfor %}
+                </p>
               </div>
               {% endif %}
               {% if system_context.get('__postal_address__') == 'minvnitra_offices_chooser' %}
