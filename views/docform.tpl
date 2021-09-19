@@ -90,6 +90,11 @@ By entering your personal data you agree to Cizi problem processing it in accord
                 <p class="m-0">{{ system_context.get('__datova_schranka__') }}</p>
               </div>
               {% endif %}
+              {% if system_context.get('__notes__') %}
+              <div>
+                <p class="m-0">{{ system_context.get('__notes__') }}</p>
+              </div>
+              {% endif %}
               {% if system_context.get('__postal_address__') == 'minvnitra_offices_chooser' %}
               <div class="mv-3 p-3">
                 <form id="officeSelectorForm">
