@@ -11,6 +11,26 @@ document:
     5. Логинитесь в датовку https://www.mojedatovaschranka.cz
     6. В поле новое обращение выбираете Úřad práce České republiky, прикладываете заполненный формуляр, сканы внж родителя (которому принадлежит схранка) и ребенка, дополнительные доки если требуется тоже сканами\фотками. Отправляете.
     7. Profit
+
+  declination:
+    2:
+      - before: "Zaměstnanecká karta"
+        after: "Zaměstnanecke karty"
+      - before: "Modrá karta"
+        after: "Modre karty"
+      - before: "Dlouhodobý pobyt za účelem vědeckého výzkumu"
+        after: "Povolení k dlouhodobému pobytu za účelem vědeckého výzkumu"
+
+  residence_map:
+      ZK:
+        name: "Zaměstnanecká karta"
+        law: "§ 3 odst. 2 pism. i"
+      MK:
+        name: "Modrá karta"
+        law: "§ 3 odst. 2 písm. h"
+      DP_science:
+        name: "Dlouhodobý pobyt za účelem vědeckého výzkumu"
+        law: "§ 3 odst. 2 písm. f"
   form:
     fields:
       - name: name
@@ -23,12 +43,7 @@ document:
         choices:
           - "Zaměstnanecká karta"
           - "Modrá karta"
-          - "Povolení k přechodnému pobytu"
-      - name: child_name
-        default: "Albus Severus Potter"
-      - name: child_date_of_birth
-        default: "27.08.2006"
-        type: date
+          - "Dlouhodobý pobyt za účelem vědeckého výzkumu"
       - name: application_number
         default: "4242-42-RO"
       - name: application_date
