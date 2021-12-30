@@ -120,6 +120,17 @@
           </div>
           <div class="col">
             <div class="card border-warning">
+              <div class="card-header">Rodičovský příspěvek affidavit</div>
+              <div class="card-body">
+                <p class="card-text">Foreigners are often requested to provide additional documents when applying for Rodičovský příspěvek. One of them is proof that you are not receiving similar allowance in your home country.</p>
+              </div>
+              <div class="card-footer text-end">
+                <a href="/rodicovsky_prispevek_cestne_prohlaseni" class="btn btn-warning"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-warning">
               <div class="card-header">Potvrzení o daňovém domicilu</div>
               <div class="card-body">
                 <p class="card-text">This confirmation is likely to be requested by your employer's financial advisor.</p>

@@ -88,7 +88,10 @@ TEMPLATE_MAP = {
         "Upozornění na splnění podmínek pro přiznání dávek státní sociální podpory": {
             "template": "upozorneni_na_splneni_podminek_ssp.docx",
             "context": "rodicovsky_prispevek_context.yaml"
-            }
+            },
+        "Čestné prohlášení o nepobírání dávek v jiném státě": {
+            "template": "cestne_prohlaseni_o_nepobirani_davek.docx",
+            "context": "cestne_prohlaseni_o_nepobirani_davek_context.yaml"}
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -166,6 +169,11 @@ def danovy_domicil():
 @route('/rodicovsky_prispevek')
 def rodicovsky_prispevek():
     return docform(*get_form_context('rodicovsky_prispevek_context.yaml'))
+
+
+@route('/rodicovsky_prispevek_cestne_prohlaseni')
+def rodicovsky_prispevek():
+    return docform(*get_form_context('cestne_prohlaseni_o_nepobirani_davek_context.yaml'))
 
 
 def get_office_by_name(name):
