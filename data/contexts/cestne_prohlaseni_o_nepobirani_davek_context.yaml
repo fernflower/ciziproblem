@@ -1,0 +1,43 @@
+document:
+  name: "Čestné prohlášení o nepobírání dávek v jiném státě"
+  authority: "Úřad práce"
+  datova_schranka: <a href='https://www.uradprace.cz/web/cz/e-mailove-adresy-a-datove-schranky-pracovist-uradu-prace-cr' target='_blank'>Datová schránka IDs of all branches</a>
+  link: "https://www.mpsv.cz/-/zadost-o-rodicovsky-prispevek"
+  notes: |
+    1. Идете на почту у дома, с собой внж того, кто будет подаваться.
+    2. В автомате нажимаете czechpoint, ждете своей очереди.
+    3. У окошка говорите Dobrý den, chtel(a) bych zřídit datovou schránku pro fyzickou osobu, даете внж, пишете на бумажке емейл, остальное все за вас заполнят, вам только подписать. Выдадут бумагу с данными учетки, пароль одноразовый придет по электронной почте.
+    4. <a href='https://www.mpsv.cz/web/portal/fasBridge?formID=31' target='_blank'>Заполняете заявление на родичовский онлайн</a>
+    Здесь можно найти <a href='./static/files/rp_zadost_vyplnena_vzor.pdf' target='_blank'>пример заполненного заявления (pdf)</a> и <a href='./static/files/rodicovsky_formular_vyplneny.xml' target='_blank'> заполненного электронного заявления (xml)</a>, которое можно предзагрузить кнопкой Načíst údaje.
+    5. Логинитесь в датовку https://www.mojedatovaschranka.cz
+    6. В поле новое обращение выбираете Úřad práce České republiky, прикладываете заполненный формуляр, сканы внж родителя (которому принадлежит схранка) и ребенка, дополнительные доки если требуется тоже сканами\фотками. Отправляете.
+    7. Profit
+
+  persons_map:
+    verb_gender:
+      name: "verb_gender"
+      Male: ""
+      Female: "a"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: application_number
+        default: "4242-42-RO"
+      - name: address
+        default: "4 Privet Drive"
+      - name: phone
+        default: "123456789"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: city
+        default: "Londýn"

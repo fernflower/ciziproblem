@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
+"""
+This single file takes care of generating each and every form at https://ciziproblem.cz
+"""
 
-import collections
 import datetime
-import jinja2
 import json
 import os
 import tempfile
 import yaml
+
+import jinja2
 
 from bottle import default_app, request, route, run, static_file
 
@@ -19,7 +22,6 @@ DATA_DIR = "./data"
 
 def get_form_context(filename):
     """Returns a list of form fields and a dict of system fields - a form context dict and a system context dict"""
-    form_context = {}
     system_context = {}
     with open(os.path.join(DATA_DIR, 'contexts', filename), encoding='utf-8') as f:
         if filename.endswith('.yaml'):
@@ -46,7 +48,7 @@ def get_form_context(filename):
             except KeyError as err:
                 raise exc.ConfigError("{} raised when processing {}".format(err, filename))
         else:
-            raise NotImplemented("Only yaml contexts are supported")
+            raise NotImplementedError("Only yaml contexts are supported")
         return form_fields, system_context
 
 
@@ -82,7 +84,14 @@ TEMPLATE_MAP = {
         "Žádost o vydání potvrzení o daňovém domicilu": {
             "template": "zadost_domicil.docx",
             "context": "domicil_context.yaml"
-            }
+            },
+        "Upozornění na splnění podmínek pro přiznání dávek státní sociální podpory": {
+            "template": "upozorneni_na_splneni_podminek_ssp.docx",
+            "context": "rodicovsky_prispevek_context.yaml"
+            },
+        "Čestné prohlášení o nepobírání dávek v jiném státě": {
+            "template": "cestne_prohlaseni_o_nepobirani_davek.docx",
+            "context": "cestne_prohlaseni_o_nepobirani_davek_context.yaml"}
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -151,9 +160,20 @@ def urychleni_rizeni():
 def covid19_prohlaseni():
     return docform(*get_form_context('covid19_okresy_prohlaseni.yaml'))
 
+
 @route('/danovy_domicil')
 def danovy_domicil():
     return docform(*get_form_context('domicil_context.yaml'))
+
+
+@route('/rodicovsky_prispevek')
+def rodicovsky_prispevek():
+    return docform(*get_form_context('rodicovsky_prispevek_context.yaml'))
+
+
+@route('/rodicovsky_prispevek_cestne_prohlaseni')
+def rodicovsky_prispevek_affidavit():
+    return docform(*get_form_context('cestne_prohlaseni_o_nepobirani_davek_context.yaml'))
 
 
 def get_office_by_name(name):
@@ -167,6 +187,11 @@ def get_office_address():
     return json.dumps(office or {})
 
 
+@route(r'/static/files/<filepath:re:.*\.(pdf|xml)>')
+def files(filepath):
+    return static_file(filepath, root='data/files')
+
+
 def _apply_post_processing_hacks(context, form_fields):
     "Hacks to convert data received from frontend to the expected form in docx templates"
     # transition from YYYY-MM-DD dates to expected DD.MM.YYYY
@@ -178,8 +203,8 @@ def _apply_post_processing_hacks(context, form_fields):
             pass
     # process chosen office: substitute name with full information
     if '__chosen_office' in context:
-        context['chosen_office'] = get_office_by_name(
-                context.get('__chosen_office')) or get_office_by_name('Pracoviště Praha V.')
+        context['chosen_office'] = get_office_by_name(context.get('__chosen_office')) or \
+                                   get_office_by_name('Pracoviště Praha V.')
     # add _checkbox to active checkbox fields
     for checkbox in [f for f in form_fields if f.get("type") == "checkbox"]:
         context['{}_checkbox'.format(checkbox['name'])] = 'True' if context[checkbox['name']] else 'False'
@@ -204,11 +229,10 @@ def generate():
     with tempfile.NamedTemporaryFile(dir="generated", delete=True) as temp_doc:
         docx_template_name = os.path.join(DATA_DIR, "application_templates", docx_template_name)
         gen.generate_doc(docx_template_name, context, temp_doc.name)
-        return static_file(
-                temp_doc.name.rsplit(os.path.sep)[-1],
-                root="generated/",
-                mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                download=docx_template_name)
+        return static_file(temp_doc.name.rsplit(os.path.sep)[-1],
+                           root="generated/",
+                           mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                           download=docx_template_name)
 
 app = default_app()
 
