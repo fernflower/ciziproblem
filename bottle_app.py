@@ -172,7 +172,7 @@ def rodicovsky_prispevek():
 
 
 @route('/rodicovsky_prispevek_cestne_prohlaseni')
-def rodicovsky_prispevek():
+def rodicovsky_prispevek_affidavit():
     return docform(*get_form_context('cestne_prohlaseni_o_nepobirani_davek_context.yaml'))
 
 
@@ -185,6 +185,11 @@ def get_office_address():
     data = request.forms
     office = get_office_by_name(data.get('office'))
     return json.dumps(office or {})
+
+
+@route(r'/static/files/<filepath:re:.*\.(pdf|xml)>')
+def files(filepath):
+    return static_file(filepath, root='data/files')
 
 
 def _apply_post_processing_hacks(context, form_fields):
