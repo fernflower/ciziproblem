@@ -128,7 +128,9 @@ def docform(form_fields, system_context):
 @route('/')
 def index():
     template = env.get_or_select_template('index.tpl')
-    return template.render()
+    with open(os.path.join(DATA_DIR, 'documents')) as f:
+        documents = yaml.safe_load(f)
+    return template.render(documents=documents.get('documents'))
 
 
 @route('/necinnost_Nin1')
