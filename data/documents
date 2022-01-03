@@ -2,6 +2,7 @@ documents:
   - header: Complaint - deadline missed
     link: /necinnost_Nin1
     css_style: danger
+    group: 1_mvcr
     body:
       - value: "By law the deadlines for residence permits decisions are:"
       - type: list
@@ -23,11 +24,13 @@ documents:
 
   - header: Confirmation of current residence in the Czech Republic (potvrzení o současném pobytu)
     link: /potvrzeni_o_soucasnem_pobytu
+    group: 2_mvcr_history
     body:
       - value: When you have to confirm current residence in the Czech Republic. Usually issued the same day.
 
   - header: Certificate of residence in the Czech Republic (historie pobytu)
     link: /historie_pobytu
+    group: 2_mvcr_history
     body:
       - value: When you have to confirm the duration of your residence. Most typical usecase is to prove that you have spent N years in the Czech Republic. The waiting time can be up to 30 days.
 
@@ -40,6 +43,7 @@ documents:
   - header: Long-term residence permit kind reminder - main application approved
     link: /urychleni_rizeni
     css_style: success
+    group: 1_mvcr
     body:
       - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
 
@@ -52,12 +56,14 @@ documents:
   - header: Rodičovský příspěvek application
     link: /rodicovsky_prispevek
     css_style: warning
+    group: 3_rodicovsky
     body:
       - value: Rodičovský příspěvek is the parental leave allowance that parents are entitled to until their youngest kid turns 4. Everyone is entitled to 10 000 czk/month (no proof of earlier income needed), a higher amount per month up to 70% of reducted salary can be requested (proof of income to the day the child is born required).
 
   - header: Rodičovský příspěvek affidavit
     link: /rodicovsky_prispevek_cestne_prohlaseni
     css_style: warning
+    group: 3_rodicovsky
     body:
       - value: Foreigners are often requested to provide additional documents when applying for Rodičovský příspěvek. One of them is proof that you are not receiving similar allowance in your home country.
 

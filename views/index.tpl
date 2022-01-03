@@ -24,8 +24,9 @@
       <div class="image"></div>
       <h2>Which document do you want to create today?</h2>
       <div class="options">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          {% for doc in documents %}
+        {% for group in documents %}
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-1">
+          {% for doc in group %}
           <div class="col">
             <div class="card border-{{ doc.get('css_style', 'info') }}">
               <div class="card-header">{{ doc.get('header') }}</div>
@@ -48,6 +49,7 @@
           </div> <!-- col -->
           {% endfor %}
         </div>
+        {% endfor %}
       </div>
     </div>
 
