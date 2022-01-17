@@ -40,13 +40,6 @@ documents:
   #   body:
   #     - value: From 01/03/21 till 23/03/21 your home district can be left only for a specific reason and you should have a written affidavit with you to show to the police.
 
-  - header: Long-term residence permit kind reminder - main application approved
-    link: /urychleni_rizeni
-    css_style: success
-    group: 1_mvcr
-    body:
-      - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
-
   - header: Rodné číslo assignment application
     link: /rodne_cislo_application
     css_style: warning
@@ -72,3 +65,17 @@ documents:
     css_style: warning
     body:
       - value: This confirmation is likely to be requested by your employer's financial advisor.
+
+  - header: Residence permit application
+    link: /static/files/green_application_form.pdf
+    css_style: success
+    group: 1_mvcr
+    body:
+      - value: A fillable PDF version of the generic "the green one" residence permit application. Can be used for long-term and permanent residence permits application or extension.
+
+  - header: Long-term residence permit kind reminder - main application approved
+    link: /urychleni_rizeni
+    css_style: success
+    group: 1_mvcr
+    body:
+      - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
