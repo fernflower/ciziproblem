@@ -3,61 +3,61 @@ offices:
     name: Pracoviště České Budějovice
     territory: okresy České Budějovice, Prachatice a Český Krumlov
     address: Pražská 1257/23, 370 01 České Budějovice
-    telephone: 974 226 851, 859 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Jihočeský kraj
     name: Pracoviště Písek
     territory: okresy Písek a Strakonice
     address: Na Výstavišti 377, 397 01 Písek - Pražské Předměstí
-    telephone: 974 235 851, 859 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Jihočeský kraj
     name: Pracoviště Jindřichův Hradec
     territory: okres Jindřichův Hradec
     address: Janderova 147/II, 377 01 Jindřichův Hradec
-    telephone: 974 233 851, 2, 5, 7 a 9 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Jihočeský kraj
     name: Pracoviště Benešov
     territory: okres Tábor
     address: Jiráskova 801, 256 01 Benešov
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Jihomoravský kraj
     name: Pracoviště Brno
     territory: okresy Brno-město, Brno-venkov, Vyškov, Blansko, Břeclav, Znojmo a Hodonín
     address: Tuřanka 1554/115b, 627 00 Brno
-    telephone: 974 820 680 (informační a objednávací linka Po - Čt 8:00 - 16:00 a Pá 8:00 - 12:00)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Karlovarský kraj
     name: Pracoviště Karlovy Vary
     territory: okresy Cheb, Karlovy Vary a Sokolov
     address: Krymská 47, 360 01 Karlovy Vary
-    telephone: 974 360 360, 974 360 391 (telefonické objednávání - občané třetích zemí); 974 360 393, 974 360 394 (telefonické objednávání - občané EU) 
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Královéhradecký kraj
     name: Pracoviště Hradec Králové
     territory: okresy Hradec Králové, Rychnov nad Kněžnou a Jičín
     address: Ulrichovo nám. 810/4, 500 02 Hradec Králové
-    telephone: 974 520 791 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Královéhradecký kraj
     name: Pracoviště Trutnov
     territory: okresy Trutnov a Náchod
     address: Horská 78, 54101 Trutnov - Dolní Staré Město
-    telephone: 974 539 813 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Liberecký kraj
     name: Pracoviště Liberec
     address: Voroněžská 144/20, 460 01 Liberec
-    telephone: 974 460 850 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Moravskoslezský kraj
     name: Pracoviště Ostrava
     territory: okresy Ostrava, Opava a Karviná
     address: Výstavní 55, 703 00 Ostrava - Vítkovice
-    telephone: 974 725 897, 974 725 899 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Moravskoslezský kraj
     name: Pracoviště Frýdek-Místek
     territory: okresy Frýdek-Místek a Nový Jičín
     address: Beskydská 2061, 738 19 Frýdek-Místek
-    telephone: 974 732 899 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Olomoucký kraj
     name: Pracoviště Přerov
@@ -69,74 +69,74 @@ offices:
     name: Pracoviště Pardubice
     territory: okresy Chrudim, Pardubice, Svitavy a Ústí nad Orlicí
     address: Pernerova 168, 530 02 Pardubice I - Zelené Předměstí
-    telephone: 974 560 781
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Plzeňský kraj
     name: Pracoviště Plzeň
     territory: okresy Plzeň-město, Plzeň-jih, Plzeň-sever, Tachov, Rokycany, Klatovy a Domažlice
     address: Jagellonská 1017/9, 301 00 Plzeň - Jižní Předměstí
-    telephone: 974 820 680 (informační a objednávací linka) Po - Čt 8:00 - 16:00 a Pá 8:00 - 12:00
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Praha
     name: Pracoviště Praha I
     territory: Praha-Východ, Praha-Západ, Praha 1, 2, 3, 6, 7, neobjednaní klienti Praha 8 a 9
     address: Žukovského 888/2, 161 00 Praha 6
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Praha
     name: Pracoviště Praha II
     territory: Praha 4, 5 a 10
     address: Cigánkova 1861/2, 148 00 Praha 4
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Praha
     name: Pracoviště Praha V.
     territory: objednaní klienti Praha 8 a 9
     address: Kolbenova 942/38a, 190 00 Praha 9 - Vysočany, Budova KCD4
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Středočeský kraj
     name: Pracoviště Benešov
     territory: okresy Benešov a Tábor
     address: Jiráskova 801, 256 01 Benešov
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Středočeský kraj
     name: Pracoviště Kladno
     territory: okresy Kladno a Rakovník
     address: Severní 2952, 272 04 Kladno
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Středočeský kraj
     name: Pracoviště Kutná Hora
     territory: okresy Kutná Hora, Nymburk a Kolín
     address: Hornická 642/3, 284 01 Kutná Hora-Vnitřní Město
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Středočeský kraj
     name: Pracoviště Mladá Boleslav
     territory: okresy Mladá Boleslav a Mělník
     address: Štefánikova 1304, 293 01 Mladá Boleslav III
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Středočeský kraj
     name: Pracoviště Příbram
     territory: okresy Beroun a Příbram
     address: Žežická 498, Žežická 498, 261 01 Příbram V-Zdaboř
-    telephone: 974 820 680
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Ústecký kraj
     name: Pracoviště Ústí nad Labem
     territory: okresy Ústí nad Labem, Teplice, Litoměřice a Děčín
     address: Berní 2261/1, 400 01 Ústí nad Labem
-    telephone: 974 420 071 (tel. objednávání v Po-Pá), 974 420 079 (tel. objednávání v Pá od 7:00-10:00 h)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
   - location: Ústecký kraj
     name: Pracoviště Chomutov
     territory: okresy Chomutov, Louny a Most
     address: Jiráskova 5338, 430 03 Chomutov
-    telephone: 974 443 158, 974 443 156 (včetně telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Kraj Vysočina
     name: Pracoviště Jihlava
     territory: Havlíčkův Brod, Jihlava, Třebíč, Pelhřimov a Žďár nad Sázavou
     address: Tolstého 1914/15, 586 01 Jihlava
-    telephone: 974 260 399 (vč. telefonického objednávání)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"
 
   - location: Zlínský kraj
     name: Pracoviště Zlín
     address: Pod Vrškem 5360, 760 01 Zlín
-    telephone: 974 820 680 (PO až ČT 8:00 - 16:00, PÁ 8:00 - 12:00)
+    telephone: "974 801 801 (informační a objednávací linka; Po - Čt: 8:00 - 16:00 a Pá: 8:00 - 12:00)"

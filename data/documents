@@ -1,0 +1,74 @@
+documents:
+  - header: Complaint - deadline missed
+    link: /necinnost_Nin1
+    css_style: danger
+    group: 1_mvcr
+    body:
+      - value: "By law the deadlines for residence permits decisions are:"
+      - type: list
+        value:
+          - extending validity of any permit - 30 days
+          - permanent residence permit application - 60 days
+          - blue card application - 90 days
+          - employee card application - 60 days (120 days in some cases)
+          - long-term residence permit for the purpose of study - 60 days
+          - long-term residence permit for the purpose of family reunification with scientific research visa holder - 60 days
+          - long-term residence permit for the purpose of family reunification with blue card holder - 90 days
+          - long-term residence permit for the purpose of family reunification - 270 days
+          - long-term residence permit for residents of other EU countries - 120 days
+          - povolení k přechodnému pobytu - 60 days
+          - long-term visa for the purpose of study - 60 days
+          - long-term visa - 90 days (120 in some cases)
+          - <a href="https://www.mvcr.cz/clanek/lhuty-a-pocitani-casu.aspx">Deadlines information from the official mvcr.cz website</a>
+      - value: If you are waiting longer - it is time to do something about it.
+
+  - header: Confirmation of current residence in the Czech Republic (potvrzení o současném pobytu)
+    link: /potvrzeni_o_soucasnem_pobytu
+    group: 2_mvcr_history
+    body:
+      - value: When you have to confirm current residence in the Czech Republic. Usually issued the same day.
+
+  - header: Certificate of residence in the Czech Republic (historie pobytu)
+    link: /historie_pobytu
+    group: 2_mvcr_history
+    body:
+      - value: When you have to confirm the duration of your residence. Most typical usecase is to prove that you have spent N years in the Czech Republic. The waiting time can be up to 30 days.
+
+  # NOTE(ivasilev) Disabled as not necessary at the moment
+  # - header: COVID-19 Affidavit for leaving the home region
+  #   link: /covid19_cestovani_mimo_okres
+  #   body:
+  #     - value: From 01/03/21 till 23/03/21 your home district can be left only for a specific reason and you should have a written affidavit with you to show to the police.
+
+  - header: Long-term residence permit kind reminder - main application approved
+    link: /urychleni_rizeni
+    css_style: success
+    group: 1_mvcr
+    body:
+      - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
+
+  - header: Rodné číslo assignment application
+    link: /rodne_cislo_application
+    css_style: warning
+    body:
+      - value: Rodné číslo is the unique identifier that every institution in the Czech Republic will want from you. Unless requested directly the process of assignment may take from several months to several years.
+
+  - header: Rodičovský příspěvek application
+    link: /rodicovsky_prispevek
+    css_style: warning
+    group: 3_rodicovsky
+    body:
+      - value: Rodičovský příspěvek is the parental leave allowance that parents are entitled to until their youngest kid turns 4. Everyone is entitled to 10 000 czk/month (no proof of earlier income needed), a higher amount per month up to 70% of reducted salary can be requested (proof of income to the day the child is born required).
+
+  - header: Rodičovský příspěvek affidavit
+    link: /rodicovsky_prispevek_cestne_prohlaseni
+    css_style: warning
+    group: 3_rodicovsky
+    body:
+      - value: Foreigners are often requested to provide additional documents when applying for Rodičovský příspěvek. One of them is proof that you are not receiving similar allowance in your home country.
+
+  - header: Potvrzení o daňovém domicilu
+    link: /danovy_domicil
+    css_style: warning
+    body:
+      - value: This confirmation is likely to be requested by your employer's financial advisor.

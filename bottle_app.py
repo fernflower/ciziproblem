@@ -128,7 +128,12 @@ def docform(form_fields, system_context):
 @route('/')
 def index():
     template = env.get_or_select_template('index.tpl')
-    return template.render()
+    with open(os.path.join(DATA_DIR, 'documents')) as f:
+        documents = yaml.safe_load(f)
+    doc_groups = sorted({doc.get('group', 'default') for doc in documents.get('documents', [])})
+    documents_per_group = [[d for d in documents.get('documents', []) if d.get('group', 'default') == group]
+                           for group in doc_groups]
+    return template.render(documents=documents_per_group)
 
 
 @route('/necinnost_Nin1')
