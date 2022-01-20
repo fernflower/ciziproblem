@@ -4,6 +4,3 @@ docxtpl
 jinja2
 uwsgi
 pyyaml
-unidecode
-requests
-beautifulsoup4
