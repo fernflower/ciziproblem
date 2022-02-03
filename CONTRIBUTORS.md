@@ -16,3 +16,6 @@
 * [vgrigoriev](https://github.com/vgrigoriev)
   * Added newborn child application
   * Introduced apply-on-behalf and vady-zadosti features
+
+* [Theo](https://www.patreon.com/theodorthegreathe)
+  * Created a fillable PDF of the residence permit application form
