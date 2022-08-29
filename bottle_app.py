@@ -91,7 +91,11 @@ TEMPLATE_MAP = {
             },
         "Čestné prohlášení o nepobírání dávek v jiném státě": {
             "template": "cestne_prohlaseni_o_nepobirani_davek.docx",
-            "context": "cestne_prohlaseni_o_nepobirani_davek_context.yaml"}
+            "context": "cestne_prohlaseni_o_nepobirani_davek_context.yaml"},
+        "Prohlášení o dlouhodobém pobytu v cizině (UA)": {
+            "template": "prohlaseni_pobyt_v_cizine_ua.docx",
+            "context": "prohlaseni_pobyt_v_cizine_ua.yaml"
+            },
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -179,6 +183,11 @@ def rodicovsky_prispevek():
 @route('/rodicovsky_prispevek_cestne_prohlaseni')
 def rodicovsky_prispevek_affidavit():
     return docform(*get_form_context('cestne_prohlaseni_o_nepobirani_davek_context.yaml'))
+
+
+@route('/prohlaseni_pobyt_v_cizine_ua')
+def prohlaseni_pobyt_v_cizine_ua():
+    return docform(*get_form_context('prohlaseni_pobyt_v_cizine_ua.yaml'))
 
 
 def get_office_by_name(name):

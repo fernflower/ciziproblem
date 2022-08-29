@@ -1,0 +1,24 @@
+document:
+  name: "Prohlášení o dlouhodobém pobytu v cizině (UA)"
+  authority: "Veřejná zdravotní pojišťovna (VoZP, ČPZP, OZP, ZPŠ, ZPMVCR, RBP, VZP)"
+  link: "https://kancelarzp.cz/zmeny-ve-zdravotnim-pojisteni-ukrajincu/"
+  form:
+    fields:
+      - name: name
+        default: "Harry"
+      - name: surname
+        default: "Potter"
+      - name: insurance_number
+        default: "2128506"
+      - name: phone
+        default: "123456789"
+      - name: email
+        default: "harrypotter@seznam.cz"
+      - name: travel_date
+        default: "20.05.22"
+        type: date
+      - name: city
+        default: "Praha"
+      - name: date
+        default: "18.05.22"
+        type: date

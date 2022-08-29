@@ -79,3 +79,9 @@ documents:
     group: 1_mvcr
     body:
       - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
+
+  - header: Prohlášení o dlouhodobém pobytu v cizině (UA)
+    link: /prohlaseni_pobyt_v_cizine_ua
+    css_style: success
+    body:
+      - value: This form can be used by UA refugees to temporarily opt-out of the Czech public health insurance for the duration of their stay in the Ukraine.
