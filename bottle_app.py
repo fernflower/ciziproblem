@@ -96,6 +96,10 @@ TEMPLATE_MAP = {
             "template": "prohlaseni_pobyt_v_cizine_ua.docx",
             "context": "prohlaseni_pobyt_v_cizine_ua.yaml"
             },
+        "Stížnost na nedostupnost zdravotní péče": {
+            "template": "stiznost_pvzp.docx",
+            "context": "stiznost_pvzp_context.yaml"
+            },
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -188,6 +192,11 @@ def rodicovsky_prispevek_affidavit():
 @route('/prohlaseni_pobyt_v_cizine_ua')
 def prohlaseni_pobyt_v_cizine_ua():
     return docform(*get_form_context('prohlaseni_pobyt_v_cizine_ua.yaml'))
+
+
+@route('/stiznost_pvzp')
+def stiznost_pvzp():
+    return docform(*get_form_context('stiznost_pvzp_context.yaml'))
 
 
 def get_office_by_name(name):
