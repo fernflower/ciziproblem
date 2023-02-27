@@ -28,17 +28,22 @@ document:
       - name: date
         default: "01.01.01"
         type: date
-      - name: dependent_name
-        default: "Lily Luna Potter"
       - name: insurance_number
         default: "999000666"
+      - name: on_behalf_of
+        type: checkbox
       - name: dependent_relation
         choices:
           - Child
           - Spouse
         type: radio
+        conditional: on_behalf_of
       - name: dependent_gender
         choices:
           - Female
           - Male
         type: radio
+        conditional: on_behalf_of
+      - name: dependent_name
+        default: "Lily Luna Potter"
+        conditional: on_behalf_of
