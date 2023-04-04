@@ -11,13 +11,18 @@ import yaml
 
 import jinja2
 
-from bottle import default_app, request, route, run, static_file
+from bottle import BaseRequest, default_app, get, post, request, redirect, route, run, static_file
 
 import exc
 import generate as gen
 
+BaseRequest.MEMFILE_MAX = 1024 * 1024 * 10
 
 DATA_DIR = "./data"
+TOKEN_GET = os.getenv('TOKEN_GET')
+TOKEN_POST = os.getenv('TOKEN_POST')
+TOKEN_MISMATCH_REDIRECT_URL = 'https://www.petice.com/petice_za_vstup_dti_vech_pracujicich_v_r_do_systemu_zdravotniho_pojitni'
+EXAMS_DATAFILE_ROOT = 'data/files/trvalypobytexamchecker'
 
 
 def get_form_context(filename):
@@ -131,6 +136,28 @@ def docform(form_fields, system_context):
     return template.render(context=context_to_pass,
                            system_context=system_context,
                            minvnitra_offices=get_offices_list())
+
+
+@get('/trvaly-pobyt/a2/<filepath>')
+def get_exams_info(filepath):
+    token = request.query.token
+    if not token or token != TOKEN_GET:
+        # token mismatch, show petition page instead
+        return redirect(TOKEN_MISMATCH_REDIRECT_URL)
+    # if token is ok -> show stored data
+    return static_file(filepath, root='data/files/trvalypobytexamchecker/')
+
+
+@post('/trvaly-pobyt/a2/<filepath>')
+def post_exams_info(filepath):
+    token = request.forms.token
+    if not token or token != TOKEN_POST:
+        # token mismatch, show petition page instead
+        return redirect(TOKEN_MISMATCH_REDIRECT_URL)
+    # if token is ok -> update data and show stored data
+    with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
+        f.write(request.forms.html)
+    return static_file(filepath, root=EXAMS_DATAFILE_ROOT)
 
 
 @route('/')
@@ -260,4 +287,4 @@ def generate():
 app = default_app()
 
 if __name__ == '__main__':
-    run(app, host='localhost', port=8080)
+    run(app, host='127.0.0.1', port=8080)
