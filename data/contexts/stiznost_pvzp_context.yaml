@@ -1,0 +1,49 @@
+document:
+  name: "Stížnost na nedostupnost zdravotní péče"
+  link: "https://www.pvzp.cz/cs/o-spolecnosti/informace-o-spolecnosti/"
+  authority: "Pojišťovna VZP, a.s."
+  notes: >
+    The complaint is to be sent to the following address:</br>
+    Pojišťovna VZP, a.s.</br>
+    Lazarská 1718/3</br>
+    110 00 Praha 1</br>
+    k rukám paní mistopredsedkyni Haliny Trskové</br></br>
+    Alternatively you may send it via email:</br>
+    halina.trskova@pvzp.cz and info@pvzp.cz
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: email
+        default: "harrypotter@gmail.com"
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: insurance_number
+        default: "999000666"
+      - name: on_behalf_of
+        type: checkbox
+      - name: dependent_relation
+        choices:
+          - Child
+          - Spouse
+        type: radio
+        conditional: on_behalf_of
+      - name: dependent_gender
+        choices:
+          - Female
+          - Male
+        type: radio
+        conditional: on_behalf_of
+      - name: dependent_name
+        default: "Lily Luna Potter"
+        conditional: on_behalf_of
