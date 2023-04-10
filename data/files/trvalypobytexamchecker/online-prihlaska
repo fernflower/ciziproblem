@@ -16,22 +16,22 @@
 	<script>(function(w,d,s,l,i){ w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MJ25BTD');</script>
 	<!-- End Google Tag Manager -->
     <meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="https://cestina-pro-cizince.cz/images/favicon/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="https://127.0.0.1/images/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="apple-touch-icon" sizes="57x57" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://cestina-pro-cizince.cz/images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="https://cestina-pro-cizince.cz/images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://cestina-pro-cizince.cz/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="https://cestina-pro-cizince.cz/images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://cestina-pro-cizince.cz/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="https://cestina-pro-cizince.cz/images/favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="https://127.0.0.1/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://127.0.0.1/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://127.0.0.1/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://127.0.0.1/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://127.0.0.1/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://127.0.0.1/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://127.0.0.1/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://127.0.0.1/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://127.0.0.1/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="https://127.0.0.1/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://127.0.0.1/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://127.0.0.1/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://127.0.0.1/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://127.0.0.1/images/favicon/manifest.json">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<title>Online přihláška - Jazyková zkouška A2</title>
@@ -39,28 +39,28 @@
 
 <!-- This site is optimized with the Yoast SEO plugin v13.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<link rel="canonical" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/">
+<link rel="canonical" href="https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/">
 <meta property="og:locale" content="cs_CZ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Online přihláška - Jazyková zkouška A2">
 <meta property="og:description" content="Zde je možné se oficiálně přihlásit na zkoušku z češtiny pro trvalý pobyt v ČR pomocí online formuláře. Připravte si své osobní údaje a případně poukaz na zkoušku. Více informací k poukazu v Informace ke zkoušce. Zkoušku je možné vykonat pouze na vybraných školách. Nejprve si vyberte město, kde chcete...">
-<meta property="og:url" content="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/">
+<meta property="og:url" content="https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/">
 <meta property="og:site_name" content="Jazyková zkouška A2">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="Zde je možné se oficiálně přihlásit na zkoušku z češtiny pro trvalý pobyt v ČR pomocí online formuláře. Připravte si své osobní údaje a případně poukaz na zkoušku. Více informací k poukazu v Informace ke zkoušce. Zkoušku je možné vykonat pouze na vybraných školách. Nejprve si vyberte město, kde chcete...">
 <meta name="twitter:title" content="Online přihláška - Jazyková zkouška A2">
-<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/#website","url":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/","name":"Jazykov\u00e1 zkou\u0161ka A2","inLanguage":"cs-CZ","description":"Webov\u00e9 str\u00e1nky \u010de\u0161tiny pro trval\u00fd pobyt pro \u00farove\u0148 A2","potentialAction":[{"@type":"SearchAction","target":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"WebPage","@id":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/#webpage","url":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/","name":"Online p\u0159ihl\u00e1\u0161ka - Jazykov\u00e1 zkou\u0161ka A2","isPartOf":{"@id":"https://cestina-pro-cizince.cz/trvaly-pobyt/a2/#website"},"inLanguage":"cs-CZ","datePublished":"2021-04-28T10:52:06+00:00","dateModified":"2023-03-27T11:11:59+00:00","potentialAction":[{"@type":"ReadAction","target":["https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/"]}]}]}</script>
+<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://127.0.0.1/trvaly-pobyt/a2/#website","url":"https://127.0.0.1/trvaly-pobyt/a2/","name":"Jazykov\u00e1 zkou\u0161ka A2","inLanguage":"cs-CZ","description":"Webov\u00e9 str\u00e1nky \u010de\u0161tiny pro trval\u00fd pobyt pro \u00farove\u0148 A2","potentialAction":[{"@type":"SearchAction","target":"https://127.0.0.1/trvaly-pobyt/a2/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"WebPage","@id":"https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/#webpage","url":"https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/","name":"Online p\u0159ihl\u00e1\u0161ka - Jazykov\u00e1 zkou\u0161ka A2","isPartOf":{"@id":"https://127.0.0.1/trvaly-pobyt/a2/#website"},"inLanguage":"cs-CZ","datePublished":"2021-04-28T10:52:06+00:00","dateModified":"2023-03-27T11:11:59+00:00","potentialAction":[{"@type":"ReadAction","target":["https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/"]}]}]}</script>
 <!-- / Yoast SEO plugin. -->
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
-<link rel="alternate" type="application/rss+xml" title="Jazyková zkouška A2 » RSS zdroj" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/feed/">
-<link rel="alternate" type="application/rss+xml" title="Jazyková zkouška A2 » RSS komentářů" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Jazyková zkouška A2 » RSS zdroj" href="https://127.0.0.1/trvaly-pobyt/a2/feed/">
+<link rel="alternate" type="application/rss+xml" title="Jazyková zkouška A2 » RSS komentářů" href="https://127.0.0.1/trvaly-pobyt/a2/comments/feed/">
 <script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cestina-pro-cizince.cz\/trvaly-pobyt\/a2\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/127.0.0.1\/trvaly-pobyt\/a2\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
 /*! This file is auto-generated */
 !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-</script><script src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/js/wp-emoji-release.min.js?ver=5.9.3" type="text/javascript" defer=""></script>
+</script><script src="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/js/wp-emoji-release.min.js?ver=5.9.3" type="text/javascript" defer=""></script>
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -75,46 +75,46 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-	<link rel="stylesheet" id="wgs2-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-google-search/wgs2.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="sdm-styles-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/simple-download-monitor/css/sdm_wp_styles.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="wp-block-library-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3" type="text/css" media="all">
+	<link rel="stylesheet" id="wgs2-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-google-search/wgs2.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="sdm-styles-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/simple-download-monitor/css/sdm_wp_styles.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3" type="text/css" media="all">
 <style id="global-styles-inline-css" type="text/css">
 body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 </style>
-<link rel="stylesheet" id="dashicons-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/css/dashicons.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="post-views-counter-frontend-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/post-views-counter/css/frontend.css?ver=1.3.11" type="text/css" media="all">
-<link rel="stylesheet" id="wpm-main-css" href="//cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/assets/styles/main.min.css?ver=2.4.1" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/css/dashicons.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="post-views-counter-frontend-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/post-views-counter/css/frontend.css?ver=1.3.11" type="text/css" media="all">
+<link rel="stylesheet" id="wpm-main-css" href="//127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/assets/styles/main.min.css?ver=2.4.1" type="text/css" media="all">
 <link rel="stylesheet" id="newspotrika-google-font-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C500%2C600%2C700%2C800%7CRoboto%3A300%2C400%2C500%2C700%2C900&amp;subset=latin%2Clatin-ext&amp;ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="bootstrap-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/bootstrap.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="newspotrika-color-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/color/default.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="meanmenu-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/meanmenu.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="slick-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/slick.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="slick-theme-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/slick-theme.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="fontawesome-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/font-awesome.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="newspotrika-theme-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/theme.min.css?ver=5.9.3" type="text/css" media="all">
-<link rel="stylesheet" id="newspotrika-style-css" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/style.css?ver=5.9.3" type="text/css" media="all">
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="stylesheet" id="bootstrap-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/bootstrap.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="newspotrika-color-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/color/default.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="meanmenu-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/meanmenu.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="slick-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/slick.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="slick-theme-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/slick-theme.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/font-awesome.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="newspotrika-theme-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/theme.min.css?ver=5.9.3" type="text/css" media="all">
+<link rel="stylesheet" id="newspotrika-style-css" href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/style.css?ver=5.9.3" type="text/css" media="all">
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="sdm-scripts-js-extra">
 /* <![CDATA[ */
-var sdm_ajax_script = {"ajaxurl":"https:\/\/cestina-pro-cizince.cz\/trvaly-pobyt\/a2\/wp-admin\/admin-ajax.php"};
+var sdm_ajax_script = {"ajaxurl":"https:\/\/127.0.0.1\/trvaly-pobyt\/a2\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/simple-download-monitor/js/sdm_wp_scripts.js?ver=5.9.3" id="sdm-scripts-js"></script>
-<link rel="https://api.w.org/" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-json/"><link rel="alternate" type="application/json" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-json/wp/v2/pages/28"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-includes/wlwmanifest.xml"> 
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/simple-download-monitor/js/sdm_wp_scripts.js?ver=5.9.3" id="sdm-scripts-js"></script>
+<link rel="https://api.w.org/" href="https://127.0.0.1/trvaly-pobyt/a2/wp-json/"><link rel="alternate" type="application/json" href="https://127.0.0.1/trvaly-pobyt/a2/wp-json/wp/v2/pages/28"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://127.0.0.1/trvaly-pobyt/a2/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://127.0.0.1/trvaly-pobyt/a2/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.3">
-<link rel="shortlink" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/?p=28">
-<link rel="alternate" type="application/json+oembed" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcestina-pro-cizince.cz%2Ftrvaly-pobyt%2Fa2%2Fonline-prihlaska%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcestina-pro-cizince.cz%2Ftrvaly-pobyt%2Fa2%2Fonline-prihlaska%2F&amp;format=xml">
-<link rel="alternate" hreflang="x-default" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/">
-<link rel="alternate" hreflang="cs-cz" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/">
-<link rel="alternate" hreflang="en-us" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/en/online-prihlaska/">
-<link rel="alternate" hreflang="uk-ua" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/uk/online-prihlaska/">
-<link rel="alternate" hreflang="ru-ru" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/ru/online-prihlaska/">
-<link rel="alternate" hreflang="vi-vn" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/vn/online-prihlaska/">
-<link rel="alternate" hreflang="fr-fr" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/fr/online-prihlaska/">
-<link rel="alternate" hreflang="mn-mn" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/mn/online-prihlaska/">
+<link rel="shortlink" href="https://127.0.0.1/trvaly-pobyt/a2/?p=28">
+<link rel="alternate" type="application/json+oembed" href="https://127.0.0.1/trvaly-pobyt/a2/wp-json/oembed/1.0/embed?url=https%3A%2F%2F127.0.0.1%2Ftrvaly-pobyt%2Fa2%2Fonline-prihlaska%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://127.0.0.1/trvaly-pobyt/a2/wp-json/oembed/1.0/embed?url=https%3A%2F%2F127.0.0.1%2Ftrvaly-pobyt%2Fa2%2Fonline-prihlaska%2F&amp;format=xml">
+<link rel="alternate" hreflang="x-default" href="https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/">
+<link rel="alternate" hreflang="cs-cz" href="https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/">
+<link rel="alternate" hreflang="en-us" href="https://127.0.0.1/trvaly-pobyt/a2/en/online-prihlaska/">
+<link rel="alternate" hreflang="uk-ua" href="https://127.0.0.1/trvaly-pobyt/a2/uk/online-prihlaska/">
+<link rel="alternate" hreflang="ru-ru" href="https://127.0.0.1/trvaly-pobyt/a2/ru/online-prihlaska/">
+<link rel="alternate" hreflang="vi-vn" href="https://127.0.0.1/trvaly-pobyt/a2/vn/online-prihlaska/">
+<link rel="alternate" hreflang="fr-fr" href="https://127.0.0.1/trvaly-pobyt/a2/fr/online-prihlaska/">
+<link rel="alternate" hreflang="mn-mn" href="https://127.0.0.1/trvaly-pobyt/a2/mn/online-prihlaska/">
 
 		<style>
 			#wp-admin-bar-pvc-post-views .pvc-graph-container { padding-top: 6px; padding-bottom: 6px; position: relative; display: block; height: 100%; box-sizing: border-box; }
@@ -148,7 +148,7 @@ var sdm_ajax_script = {"ajaxurl":"https:\/\/cestina-pro-cizince.cz\/trvaly-pobyt
 			#wp-admin-bar-pvc-post-views .pvc-line-graph-19 { height: 95% }
 			#wp-admin-bar-pvc-post-views .pvc-line-graph-20 { height: 100% }
 		</style>	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<link href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/trvaly-pobyt.css?v11" type="text/css" rel="stylesheet" media="all">
+	<link href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/trvaly-pobyt.css?v11" type="text/css" rel="stylesheet" media="all">
 	<script>
 	jQuery(document).ready(function(){	    
 
@@ -183,7 +183,7 @@ var sdm_ajax_script = {"ajaxurl":"https:\/\/cestina-pro-cizince.cz\/trvaly-pobyt
 	    });
 	});
 	</script>
-	<script src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/trvaly-pobyt.js?v2"></script>
+	<script src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/trvaly-pobyt.js?v2"></script>
 
     
 <style id="cc--style" type="text/css">:root{--cc-bg:#fff;--cc-text:#2d4156;--cc-btn-primary-bg:#2d4156;--cc-btn-primary-text:var(--cc-bg);--cc-btn-primary-hover-bg:#1d2e38;--cc-btn-secondary-bg:#eaeff2;--cc-btn-secondary-text:var(--cc-text);--cc-btn-secondary-hover-bg:#d8e0e6;--cc-toggle-bg-off:#919ea6;--cc-toggle-bg-on:var(--cc-btn-primary-bg);--cc-toggle-bg-readonly:#d5dee2;--cc-toggle-knob-bg:#fff;--cc-toggle-knob-icon-color:#ecf2fa;--cc-block-text:var(--cc-text);--cc-cookie-category-block-bg:#f0f4f7;--cc-cookie-category-block-bg-hover:#e9eff4;--cc-section-border:#f1f3f5;--cc-cookie-table-border:#e9edf2;--cc-overlay-bg:rgba(4, 6, 8, .85);--cc-webkit-scrollbar-bg:#cfd5db;--cc-webkit-scrollbar-bg-hover:#9199a0}.c_darkmode{--cc-bg:#181b1d;--cc-text:#d8e5ea;--cc-btn-primary-bg:#a6c4dd;--cc-btn-primary-text:#000;--cc-btn-primary-hover-bg:#c2dff7;--cc-btn-secondary-bg:#33383c;--cc-btn-secondary-text:var(--cc-text);--cc-btn-secondary-hover-bg:#3e454a;--cc-toggle-bg-off:#667481;--cc-toggle-bg-on:var(--cc-btn-primary-bg);--cc-toggle-bg-readonly:#454c54;--cc-toggle-knob-bg:var(--cc-cookie-category-block-bg);--cc-toggle-knob-icon-color:var(--cc-bg);--cc-block-text:#b3bfc5;--cc-cookie-category-block-bg:#23272a;--cc-cookie-category-block-bg-hover:#2b3035;--cc-section-border:#292d31;--cc-cookie-table-border:#2b3035;--cc-webkit-scrollbar-bg:#667481;--cc-webkit-scrollbar-bg-hover:#9199a0}.cc_div *,.cc_div :after,.cc_div :before{-webkit-box-sizing:border-box;box-sizing:border-box;float:none;font-style:inherit;font-variant:normal;font-weight:inherit;font-family:inherit;line-height:1.2;font-size:1em;transition:none;animation:none;margin:0;padding:0;text-transform:none;letter-spacing:unset;color:inherit;background:0 0;border:none;box-shadow:none;text-decoration:none;text-align:left;visibility:unset}.cc_div{font-size:16px;font-weight:400;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;color:#2d4156;color:var(--cc-text)}#c-ttl,#s-bl td:before,#s-ttl,.cc_div .b-tl,.cc_div .c-bn{font-weight:600}#cm,#s-bl .act .b-acc,#s-inr,.cc_div .b-tl,.cc_div .c-bl{border-radius:.35em}.cc_div a,.cc_div button,.cc_div input{-webkit-appearance:none;-moz-appearance:none;appearance:none}.cc_div a{border-bottom:1px solid}.cc_div a:hover{text-decoration:none;border-color:transparent}#cm-ov,#cs-ov,.c--anim #cm,.c--anim #s-cnt,.c--anim #s-inr{transition:visibility .25s linear,opacity .25s ease,transform .25s ease!important}.c--anim .c-bn{transition:background-color .25s ease!important}.c--anim #cm.bar.slide,.c--anim .bar.slide #s-inr{transition:visibility .4s ease,opacity .4s ease,transform .4s ease!important}.c--anim #cm.bar.slide+#cm-ov,.c--anim .bar.slide+#cs-ov{transition:visibility .4s ease,opacity .4s ease,transform .4s ease!important}#cm.bar.slide,.cc_div .bar.slide #s-inr{transform:translateX(100%);opacity:1}#cm.bar.top.slide,.cc_div .bar.left.slide #s-inr{transform:translateX(-100%);opacity:1}#cm.slide,.cc_div .slide #s-inr{transform:translateY(1.6em)}#cm.top.slide{transform:translateY(-1.6em)}#cm.bar.slide{transform:translateY(100%)}#cm.bar.top.slide{transform:translateY(-100%)}.show--consent .c--anim #cm,.show--consent .c--anim #cm.bar,.show--settings .c--anim #s-inr,.show--settings .c--anim .bar.slide #s-inr{opacity:1;transform:scale(1);visibility:visible!important}.force--consent.show--consent .c--anim #cm.box.middle,.force--consent.show--consent .c--anim #cm.cloud.middle{transform:scale(1) translateY(-50%)}.show--settings .c--anim #s-cnt{visibility:visible!important}.force--consent.show--consent .c--anim #cm-ov,.show--settings .c--anim #cs-ov{visibility:visible!important;opacity:1!important}#cm{font-family:inherit;padding:1.1em 1.8em 1.4em 1.8em;position:fixed;z-index:1;background:#fff;background:var(--cc-bg);max-width:24.2em;width:100%;bottom:1.25em;right:1.25em;box-shadow:0 .625em 1.875em #000;box-shadow:0 .625em 1.875em rgba(2,2,3,.28);opacity:0;visibility:hidden;transform:scale(.95);line-height:initial}#c-ttl{margin-bottom:.7em;font-size:1.05em}.cloud #c-ttl{margin-top:-.15em}#c-txt{margin-bottom:1.4em;font-size:.9em;line-height:1.5em}.cc_div .c-bn{color:#40505a;color:var(--cc-btn-secondary-text);background:#e5ebef;background:var(--cc-btn-secondary-bg);padding:1em 1.7em;display:inline-block;cursor:pointer;font-size:.82em;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;user-select:none;text-align:center;border-radius:4px}#cm .c-bn{width:48.5%}#c-bns button+button,#s-c-bn,#s-cnt button+button{float:right}#s-cnt #s-rall-bn{float:none;margin-left:1em}#cm .c_link:active,#cm .c_link:hover,#s-c-bn:active,#s-c-bn:hover,#s-cnt button+button:active,#s-cnt button+button:hover{background:#d8e0e6;background:var(--cc-btn-secondary-hover-bg)}#s-cnt{position:fixed;top:0;left:0;width:100%;z-index:101;display:table;height:100%;visibility:hidden}#s-bl{outline:0}#s-bl .title{margin-top:1.4em}#s-bl .title:first-child{margin-top:0}#s-bl .b-bn{margin-top:0}#s-bl .b-acc .p{margin-top:0;padding:1em}#s-cnt .b-bn .b-tl{display:block;font-family:inherit;font-size:.95em;width:100%;cursor:pointer;position:relative;padding:1.3em 6.4em 1.3em 2.7em;background:0 0;transition:background-color .25s ease}#s-cnt .act .b-bn .b-tl{border-bottom-right-radius:0;border-bottom-left-radius:0}#s-cnt .b-bn .b-tl:active,#s-cnt .b-bn .b-tl:hover{background:#e9eff4;background:var(--cc-cookie-category-block-bg-hover)}#s-bl .b-bn{position:relative}#s-bl .c-bl{padding:1em;margin-bottom:.5em;border:1px solid #f1f3f5;border-color:var(--cc-section-border);transition:background-color .25s ease}#s-bl .c-bl:hover{background:#f0f4f7;background:var(--cc-cookie-category-block-bg)}#s-bl .c-bl:last-child{margin-bottom:.5em}#s-bl .c-bl:first-child{transition:none;padding:0;margin-top:0;border:none;margin-bottom:2em}#s-bl .c-bl:not(.b-ex):first-child:hover{background:0 0;background:unset}#s-bl .c-bl.b-ex{padding:0;border:none;background:#f0f4f7;background:var(--cc-cookie-category-block-bg);transition:none}#s-bl .c-bl.b-ex+.c-bl{margin-top:2em}#s-bl .c-bl.b-ex+.c-bl.b-ex{margin-top:0}#s-bl .c-bl.b-ex:first-child{margin-bottom:1em}#s-bl .c-bl.b-ex:first-child{margin-bottom:.5em}#s-bl .b-acc{max-height:0;overflow:hidden;padding-top:0;margin-bottom:0;display:none}#s-bl .act .b-acc{max-height:100%;display:block;overflow:hidden}#s-cnt .p{font-size:.9em;line-height:1.5em;margin-top:.85em;color:#2d4156;color:var(--cc-block-text)}.cc_div .b-tg .c-tgl:disabled{cursor:not-allowed}#c-vln{display:table-cell;vertical-align:middle;position:relative}#cs{padding:0 1.7em;width:100%;position:fixed;left:0;right:0;top:0;bottom:0;height:100%}#s-inr{height:100%;position:relative;max-width:45em;margin:0 auto;transform:scale(.96);opacity:0;padding-top:4.75em;padding-bottom:4.75em;position:relative;height:100%;overflow:hidden;visibility:hidden;box-shadow:rgba(3,6,9,.26) 0 13px 27px -5px}#s-bns,#s-hdr,#s-inr{background:#fff;background:var(--cc-bg)}#s-bl{overflow-y:auto;overflow-y:overlay;overflow-x:hidden;height:100%;padding:1.3em 2.1em;display:block;width:100%}#s-bns{position:absolute;bottom:0;left:0;right:0;padding:1em 2.1em;border-top:1px solid #f1f3f5;border-color:var(--cc-section-border);height:4.75em}.cc_div .cc-link{color:#253b48;color:var(--cc-btn-primary-bg);border-bottom:1px solid #253b48;border-color:var(--cc-btn-primary-bg);display:inline;padding-bottom:0;text-decoration:none;cursor:pointer;font-weight:600}.cc_div .cc-link:active,.cc_div .cc-link:hover{border-color:transparent}#c-bns button:first-child,#s-bns button:first-child{color:#fff;color:var(--cc-btn-primary-text);background:#253b48;background:var(--cc-btn-primary-bg)}.cc_div .b-tg .c-tgl:checked~.c-tg{background:#253b48;background:var(--cc-toggle-bg-on)}#c-bns button:first-child:active,#c-bns button:first-child:hover,#s-bns button:first-child:active,#s-bns button:first-child:hover{background:#1d2e38;background:var(--cc-btn-primary-hover-bg)}#s-hdr{position:absolute;top:0;width:100%;display:table;padding:0 2.1em;height:4.75em;vertical-align:middle;z-index:2;border-bottom:1px solid #f1f3f5;border-color:var(--cc-section-border)}#s-ttl{display:table-cell;vertical-align:middle;font-size:1em}#s-c-bn{padding:0;width:1.7em;height:1.7em;font-size:1.45em;margin:0;font-weight:initial;position:relative}#s-c-bnc{display:table-cell;vertical-align:middle}.cc_div span.t-lb{position:absolute;top:0;z-index:-1;opacity:0;pointer-events:none;overflow:hidden}#c_policy__text{height:31.25em;overflow-y:auto;margin-top:1.25em}#c-s-in{position:relative;transform:translateY(-50%);top:50%;height:100%;height:calc(100% - 2.5em);max-height:37.5em}@media screen and (min-width:688px){#s-bl::-webkit-scrollbar{width:.9em;height:100%;background:0 0;border-radius:0 .25em .25em 0}#s-bl::-webkit-scrollbar-thumb{border:.25em solid var(--cc-bg);background:#cfd5db;background:var(--cc-webkit-scrollbar-bg);border-radius:100em}#s-bl::-webkit-scrollbar-thumb:hover{background:#9199a0;background:var(--cc-webkit-scrollbar-bg-hover)}#s-bl::-webkit-scrollbar-button{width:10px;height:5px}}.cc_div .b-tg{position:absolute;right:0;top:0;bottom:0;display:inline-block;margin:auto;right:1.2em;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle}.cc_div .b-tg .c-tgl{position:absolute;cursor:pointer;display:block;top:0;left:0;margin:0;border:0}.cc_div .b-tg .c-tg{position:absolute;background:#919ea6;background:var(--cc-toggle-bg-off);transition:background-color .25s ease,box-shadow .25s ease;pointer-events:none}.cc_div .b-tg,.cc_div .b-tg .c-tg,.cc_div .b-tg .c-tgl,.cc_div span.t-lb{width:3.4em;height:1.5em;border-radius:4em}.cc_div .b-tg .c-tg.c-ro{cursor:not-allowed}.cc_div .b-tg .c-tgl~.c-tg.c-ro{background:#d5dee2;background:var(--cc-toggle-bg-readonly)}.cc_div .b-tg .c-tgl~.c-tg.c-ro:after{box-shadow:none}.cc_div .b-tg .c-tg:after{content:"";position:relative;display:block;left:.125em;top:.125em;width:1.25em;height:1.25em;border:none;box-sizing:content-box;background:#fff;background:var(--cc-toggle-knob-bg);box-shadow:0 1px 2px rgb(24 32 35 / 36%);transition:transform .25s ease;border-radius:100%}.cc_div .b-tg .c-tgl:checked~.c-tg:after{transform:translateX(1.9em)}#s-bl table,#s-bl td,#s-bl th{border:none}#s-bl tbody tr{transition:background-color .25s ease}#s-bl tbody tr:hover{background:#e9eff4;background:var(--cc-cookie-category-block-bg-hover)}#s-bl table{text-align:left;border-collapse:collapse;width:100%;padding:0;margin:0;overflow:hidden}#s-bl td,#s-bl th{padding:.8em .625em;text-align:left;vertical-align:top;font-size:.8em;padding-left:1.2em}#s-bl th{font-family:inherit;padding:1.2em 1.2em}#s-bl thead tr:first-child{border-bottom:1px solid #e9edf2;border-color:var(--cc-cookie-table-border)}.force--consent #cs,.force--consent #s-cnt{width:100vw}#cm-ov,#cs-ov{position:fixed;left:0;right:0;top:0;bottom:0;visibility:hidden;opacity:0;background:#070707;background:rgba(4,6,8,.85);background:var(--cc-overlay-bg);display:none;transition:none}.c--anim #cs-ov,.force--consent .c--anim #cm-ov,.force--consent.show--consent #cm-ov,.show--settings #cs-ov{display:block}#cs-ov{z-index:2}.force--consent .cc_div{position:fixed;top:0;left:0;bottom:0;width:100%;width:100vw;visibility:hidden;transition:visibility .25s linear}.force--consent.show--consent .c--anim .cc_div,.force--consent.show--settings .c--anim .cc_div{visibility:visible}.force--consent #cm{position:absolute}.force--consent #cm.bar{width:100vw;max-width:100vw}html.force--consent.show--consent{overflow-y:hidden!important}html.force--consent.show--consent,html.force--consent.show--consent body{height:auto!important;overflow-x:hidden!important}.cc_div .act .b-bn .b-tl::before,.cc_div .b-bn .b-tl::before{border:solid #2d4156;border-color:var(--cc-btn-secondary-text);border-width:0 2px 2px 0;padding:.2em;display:inline-block;position:absolute;content:'';margin-right:15px;position:absolute;transform:translateY(-50%) rotate(45deg);left:1.2em;top:50%}.cc_div .act .b-bn .b-tl::before{transform:translateY(-20%) rotate(225deg)}.cc_div .on-i::before{border:solid #fff;border-color:var(--cc-toggle-knob-icon-color);border-width:0 2px 2px 0;padding:.1em;display:inline-block;padding-bottom:.45em;content:'';margin:0 auto;transform:rotate(45deg);top:.37em;left:.75em;position:absolute}#s-c-bn::after,#s-c-bn::before{content:'';position:absolute;left:.82em;top:.58em;height:.6em;width:1.5px;background:#444d53;background:var(--cc-btn-secondary-text);transform:rotate(45deg);border-radius:1em;margin:0 auto}#s-c-bn::after{transform:rotate(-45deg)}.cc_div .off-i,.cc_div .on-i{height:100%;width:50%;position:absolute;right:0;display:block;text-align:center;transition:opacity .15s ease}.cc_div .on-i{left:0;opacity:0}.cc_div .off-i::after,.cc_div .off-i::before{right:.8em;top:.42em;content:' ';height:.7em;width:.09375em;display:block;background:#cdd6dc;background:var(--cc-toggle-knob-icon-color);margin:0 auto;position:absolute;transform-origin:center}.cc_div .off-i::before{transform:rotate(45deg)}.cc_div .off-i::after{transform:rotate(-45deg)}.cc_div .b-tg .c-tgl:checked~.c-tg .on-i{opacity:1}.cc_div .b-tg .c-tgl:checked~.c-tg .off-i{opacity:0}.force--consent #cm.box.middle,.force--consent #cm.cloud.middle{top:50%;transform:translateY(-37%);bottom:auto}.force--consent #cm.box.middle.zoom,.force--consent #cm.cloud.middle.zoom{transform:scale(.95) translateY(-50%)}#cm.box.center{left:1em;right:1em;margin:0 auto}#cm.cloud{max-width:50em;margin:0 auto;text-align:center;left:1em;right:1em;overflow:hidden;padding:1.3em 2em;width:unset}.cc_div .cloud #c-inr{display:table;width:100%}.cc_div .cloud #c-inr-i{width:70%;display:table-cell;vertical-align:top;padding-right:2.4em}.cc_div .cloud #c-txt{margin-bottom:0;font-size:.85em}.cc_div .cloud #c-bns{min-width:170px;display:table-cell;vertical-align:middle}#cm.cloud .c-bn{margin:.625em 0 0 0;width:100%}#cm.cloud .c-bn:first-child{margin:0}#cm.cloud.left{margin-right:1.25em}#cm.cloud.right{margin-left:1.25em}#cm.bar{width:100%;max-width:100%;left:0;right:0;bottom:0;border-radius:0;position:fixed;padding:2em}#cm.bar #c-inr{max-width:32em;margin:0 auto}#cm.bar #c-bns{max-width:33.75em}#cm.bar #cs{padding:0}.cc_div .bar #c-s-in{top:0;transform:none;height:100%;max-height:100%}.cc_div .bar #s-bl,.cc_div .bar #s-bns,.cc_div .bar #s-hdr{padding-left:1.6em;padding-right:1.6em}.cc_div .bar #cs{padding:0}.cc_div .bar #s-inr{margin:0;margin-left:auto;margin-right:0;border-radius:0;max-width:32em}.cc_div .bar.left #s-inr{margin-left:0;margin-right:auto}.cc_div .bar #s-bl table,.cc_div .bar #s-bl tbody,.cc_div .bar #s-bl td,.cc_div .bar #s-bl th,.cc_div .bar #s-bl thead,.cc_div .bar #s-bl tr,.cc_div .bar #s-cnt{display:block}.cc_div .bar #s-bl thead tr{position:absolute;top:-9999px;left:-9999px}.cc_div .bar #s-bl tr{border-top:1px solid #e3e7ed;border-color:var(--cc-cookie-table-border)}.cc_div .bar #s-bl td{border:none;position:relative;padding-left:35%}.cc_div .bar #s-bl td:before{position:absolute;left:1em;padding-right:.625em;white-space:nowrap;content:attr(data-column);color:#000;color:var(--cc-text);overflow:hidden;text-overflow:ellipsis}#cm.top{bottom:auto;top:1.25em}#cm.left{right:auto;left:1.25em}#cm.right{left:auto;right:1.25em}#cm.bar.left,#cm.bar.right{left:0;right:0}#cm.bar.top{top:0}@media screen and (max-width:688px){#cm,#cm.cloud,#cm.left,#cm.right{width:100%;max-width:100%;margin:0;padding:1.4em!important;right:1em;left:1em;bottom:1em;display:block}.force--consent #cm,.force--consent #cm.cloud{width:auto;max-width:100vw}#cm.top{top:1em;bottom:auto}#cm.bottom{bottom:1em;top:auto}#cm.bar.bottom{bottom:0}.cc_div .cloud #c-txt{font-size:.9em}#cm.cloud .c-bn{font-size:.85em}#s-bns,.cc_div .bar #s-bns{padding:1em 1.3em}.cc_div .bar #s-inr{max-width:100%;width:100%}.cc_div .cloud #c-inr-i{padding-right:0}#cs{border-radius:0;padding:0}#c-s-in{max-height:100%;height:100%;top:0;transform:none}.cc_div .b-tg{transform:scale(1.1);right:1.1em}#s-inr{margin:0;padding-bottom:7.9em;border-radius:0}#s-bns{height:7.9em}#s-bl,.cc_div .bar #s-bl{padding:1.3em}#s-hdr,.cc_div .bar #s-hdr{padding:0 1.3em}#s-bl table{width:100%}#s-inr.bns-t{padding-bottom:10.5em}.bns-t #s-bns{height:10.5em}.cc_div .bns-t .c-bn{font-size:.83em;padding:.9em 1.6em}#s-cnt .b-bn .b-tl{padding-top:1.2em;padding-bottom:1.2em}#s-bl table,#s-bl tbody,#s-bl td,#s-bl th,#s-bl thead,#s-bl tr,#s-cnt{display:block}#s-bl thead tr{position:absolute;top:-9999px;left:-9999px}#s-bl tr{border-top:1px solid #e3e7ed;border-color:var(--cc-cookie-table-border)}#s-bl td{border:none;position:relative;padding-left:35%}#s-bl td:before{position:absolute;left:1em;padding-right:.625em;white-space:nowrap;content:attr(data-column);color:#000;color:var(--cc-text);overflow:hidden;text-overflow:ellipsis}#cm .c-bn,.cc_div .c-bn{width:100%;margin-right:0}#s-cnt #s-rall-bn{margin-left:0}#c-bns button+button,#s-cnt button+button{margin-top:.625em;float:unset}#cm.box,#cm.cloud{left:1em;right:1em;width:auto}#cm.cloud.left,#cm.cloud.right{margin:0}.cc_div .cloud #c-bns,.cc_div .cloud #c-inr,.cc_div .cloud #c-inr-i{display:block;width:auto;min-width:unset}.cc_div .cloud #c-txt{margin-bottom:1.625em}}.cc_div.ie #c-vln{height:100%;padding-top:5.62em}.cc_div.ie .bar #c-vln{padding-top:0}.cc_div.ie #cs{max-height:37.5em;position:relative;top:0;margin-top:-5.625em}.cc_div.ie .bar #cs{margin-top:0;max-height:100%}.cc_div.ie #cm{border:1px solid #dee6e9}.cc_div.ie #c-s-in{top:0}.cc_div.ie .b-tg{padding-left:1em;margin-bottom:.7em}.cc_div.ie .b-tg .c-tgl:checked~.c-tg:after{left:1.95em}.cc_div.ie #s-bl table{overflow:auto}.cc_div.ie .b-tg .c-tg{display:none}.cc_div.ie .b-tg .c-tgl{position:relative;display:inline-block;vertical-align:middle;margin-bottom:.2em;height:auto}.cc_div.ie #s-cnt .b-bn .b-tl{padding:1.3em 6.4em 1.3em 1.4em}.cc_div.ie .bar #s-bl td:before{display:none}.cc_div.ie .bar #s-bl td{padding:.8em .625em .8em 1.2em}.cc_div.ie .bar #s-bl thead tr{position:relative}.cc_div.ie .b-tg .t-lb{filter: alpha(opacity=0);}.cc_div.ie #cm-ov,.cc_div.ie #cs-ov{filter: alpha(opacity=80);}</style></head>
@@ -206,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<div class="col-sm-4">
 						<div class="site-branding">
 							
-							<a class="" href="/trvaly-pobyt"><img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/logo/cs.png?v2" alt="Logo"></a>
+							<a class="" href="/trvaly-pobyt"><img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/logo/cs.png?v2" alt="Logo"></a>
                             
 						</div><!-- .site-branding -->
 					</div>
@@ -216,43 +216,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					    <ul class="wpm-language-switcher switcher-list">
 			<li class="item-language-cs active">
 							<span data-lang="cs">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
 													<span>CS</span>
 											</span>
 					</li>
 			<li class="item-language-en">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
 													<span>EN</span>
 											</a>
 					</li>
 			<li class="item-language-uk">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
 													<span>UK</span>
 											</a>
 					</li>
 			<li class="item-language-ru">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
 													<span>RU</span>
 											</a>
 					</li>
 			<li class="item-language-vn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
 													<span>VN</span>
 											</a>
 					</li>
 			<li class="item-language-fr">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
 													<span>FR</span>
 											</a>
 					</li>
 			<li class="item-language-mn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
 													<span>MN</span>
 											</a>
 					</li>
@@ -269,7 +269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					    <div class="col-6 text-center">
 						<div class="logo">
 							
-							<a class="" href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2"><img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/logo/cs.png?v2" alt="Logo" style="max-height:40px;"></a>
+							<a class="" href="https://127.0.0.1/trvaly-pobyt/a2"><img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/logo/cs.png?v2" alt="Logo" style="max-height:40px;"></a>
                             
 						</div>
 												 
@@ -277,43 +277,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					    <div class="col-3 text-right"><ul class="wpm-language-switcher switcher-list">
 			<li class="item-language-cs active">
 							<span data-lang="cs">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
 													<span>CS</span>
 											</span>
 					</li>
 			<li class="item-language-en">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
 													<span>EN</span>
 											</a>
 					</li>
 			<li class="item-language-uk">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
 													<span>UK</span>
 											</a>
 					</li>
 			<li class="item-language-ru">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
 													<span>RU</span>
 											</a>
 					</li>
 			<li class="item-language-vn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
 													<span>VN</span>
 											</a>
 					</li>
 			<li class="item-language-fr">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
 													<span>FR</span>
 											</a>
 					</li>
 			<li class="item-language-mn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
 													<span>MN</span>
 											</a>
 					</li>
@@ -329,43 +329,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		    <div class="col-8 offset-2"><ul class="wpm-language-switcher switcher-list">
 			<li class="item-language-cs active">
 							<span data-lang="cs">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/cz.png" alt="CS">
 													<span>CS</span>
 											</span>
 					</li>
 			<li class="item-language-en">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/en/online-prihlaska/" data-lang="en">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/gb.png" alt="EN">
 													<span>EN</span>
 											</a>
 					</li>
 			<li class="item-language-uk">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/uk/online-prihlaska/" data-lang="uk">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/uk.png" alt="UK">
 													<span>UK</span>
 											</a>
 					</li>
 			<li class="item-language-ru">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/ru/online-prihlaska/" data-lang="ru">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/ru.png" alt="RU">
 													<span>RU</span>
 											</a>
 					</li>
 			<li class="item-language-vn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/vn/online-prihlaska/" data-lang="vn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/vn.png" alt="VN">
 													<span>VN</span>
 											</a>
 					</li>
 			<li class="item-language-fr">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/fr/online-prihlaska/" data-lang="fr">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/fr.png" alt="FR">
 													<span>FR</span>
 											</a>
 					</li>
 			<li class="item-language-mn">
-							<a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
-												<img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
+							<a href="https://127.0.0.1/trvaly-pobyt/a2/mn/online-prihlaska/" data-lang="mn">
+												<img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-multilang/flags/mn.png" alt="MN">
 													<span>MN</span>
 											</a>
 					</li>
@@ -376,9 +376,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container">
 			    <div class="row newspotrika_navbar" style="display: block;">
 					<ul id="menu-menu-1" class="menu"><li id="menu-item-46" class="rozcestnik_icon menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="/">Rozcestník</a></li>
-<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-47"><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/">Informace ke zkoušce</a></li>
-<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item menu-item-51"><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/online-prihlaska/" aria-current="page">Online přihláška</a></li>
-<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/priprava-na-zkousku/">Příprava na zkoušku</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-47"><a href="https://127.0.0.1/trvaly-pobyt/a2/">Informace ke zkoušce</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28 current_page_item menu-item-51"><a href="https://127.0.0.1/trvaly-pobyt/a2/online-prihlaska/" aria-current="page">Online přihláška</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://127.0.0.1/trvaly-pobyt/a2/priprava-na-zkousku/">Příprava na zkoušku</a></li>
 <li id="menu-item-53" class="menu-hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-53"><a href="#">Pro učitele</a>
 <ul class="sub-menu">
 	<li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="/trvaly-pobyt/materialy-ke-stazeni?v=a2">Materiály ke stažení</a></li>
@@ -389,14 +389,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<li id="menu-item-100" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100"><a href="/trvaly-pobyt/modelove-situace?v=a2">Modelové situace</a></li>
 	<li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="/trvaly-pobyt/vyukova-videa?v=a2">Výuková videa</a></li>
 	<li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55"><a href="/trvaly-pobyt/archiv?v=a2">Archiv</a></li>
-	<li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="https://cestina-pro-cizince.cz/sign/in">Přihlásit se</a></li>
+	<li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="https://127.0.0.1/sign/in">Přihlásit se</a></li>
 </ul>
 </li>
-<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/kontakty/">Kontakty</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://127.0.0.1/trvaly-pobyt/a2/kontakty/">Kontakty</a></li>
 </ul>				<div class="mobile-search d-md-none" style="display:none;">
 				     
 					<div class="searchBox">
-					    <form action="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/search" method="get">
+					    <form action="https://127.0.0.1/trvaly-pobyt/a2/search" method="get">
 						<input type="text" name="q" placeholder="Hledaný výraz">
 						<input type="submit" name="search" value="Hledat" class="btn btn-primary">
 					    </form>
@@ -405,9 +405,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 			    </div>
 			    <div class="search">
-				<a href="" class="searchIcon"><img src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/search.png"></a>
+				<a href="" class="searchIcon"><img src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/img/search.png"></a>
 				<div class="searchBox" style="display:none;">
-				    <form action="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/search" method="get">
+				    <form action="https://127.0.0.1/trvaly-pobyt/a2/search" method="get">
 					<input type="text" name="q" placeholder="Hledaný výraz">
 					<input type="submit" name="search" value="Hledat" class="btn btn-primary">
 				    </form>
@@ -419,7 +419,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=""><div class="container my-3" style="max-width: 980px;position: relative;">
     <div class="info row">
     <div class="my-2 col-md-4 d-flex align-items-center justify-content-center"><a href="https://www.mvcr.cz/clanek/informace-pro-obcany-ukrajiny.aspx"><img src="/trvaly-pobyt/wp-content/themes/newspotrika/assets/img/ukrajina.png" alt="Informace pro Ukrajince"></a></div>
-    <div class="my-2 col-md-4 d-flex align-items-center justify-content-center"><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/priprava-na-zkousku/prvni-pomoc-v-cestine-nahravky/"><img src="/trvaly-pobyt/wp-content/uploads/sites/3/2022/05/ukrajina-front.jpg" style="height:120px;" alt="První pomoc v češtině"></a></div>
+    <div class="my-2 col-md-4 d-flex align-items-center justify-content-center"><a href="https://127.0.0.1/trvaly-pobyt/a2/priprava-na-zkousku/prvni-pomoc-v-cestine-nahravky/"><img src="/trvaly-pobyt/wp-content/uploads/sites/3/2022/05/ukrajina-front.jpg" style="height:120px;" alt="První pomoc v češtině"></a></div>
     <div class="my-2 col-md-4 d-flex align-items-center justify-content-center"><a href="https://ukrajina.npi.cz/"><img src="/trvaly-pobyt/a2/wp-content/uploads/sites/3/2022/06/UA_banner.jpg" style="width:100%;" alt="Pomoc ukrajinským školákům."></a></div>
     </div></div></div>		<section class="breadcrumb-banner">
 <div class="container">
@@ -446,7 +446,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="col-sm-12">
 
 			<p class="perex">
-</p><p class="perex">Zde je možné se oficiálně přihlásit na zkoušku z češtiny pro trvalý pobyt v ČR pomocí online formuláře. Připravte si své osobní údaje a případně poukaz na zkoušku. Více informací k poukazu v <a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/informace-ke-zkousce/" target="_blank" rel="noreferrer noopener" aria-label=" (otevře se na nové záložce)">Informace ke zkoušce</a>. Zkoušku je možné vykonat pouze na vybraných školách. Nejprve si vyberte město, kde chcete zkoušku konat.</p>
+</p><p class="perex">Zde je možné se oficiálně přihlásit na zkoušku z češtiny pro trvalý pobyt v ČR pomocí online formuláře. Připravte si své osobní údaje a případně poukaz na zkoušku. Více informací k poukazu v <a href="https://127.0.0.1/trvaly-pobyt/a2/informace-ke-zkousce/" target="_blank" rel="noreferrer noopener" aria-label=" (otevře se na nové záložce)">Informace ke zkoušce</a>. Zkoušku je možné vykonat pouze na vybraných školách. Nejprve si vyberte město, kde chcete zkoušku konat.</p>
 			<div class="variant-info-box container-fluid" style="margin-top:1rem;margin-bottom:1rem;width:100%;">
 			    <div class="info row">
 			      <div class="col-md-1 col-3" style="text-align: center;display: flex; align-items: center; font-size: 1.5rem;justify-content:center;">
@@ -751,31 +751,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					    <div class="col-6 col-md-3">
 						<h4>Zkouška pro trvalý pobyt</h4>
 						<ul>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/cs/informace-ke-zkousce/">Informace o zkoušce</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/cs/online-prihlaska/">Online přihláška</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/cs/priprava-na-zkousku/modelovy-test/">Test nanečisto</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/cs/pro-ucitele/doporucene-ucebnice/">Doporučené učebnice</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/cs/kontakty/">Kontakty</a></li>						    
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/a2/cs/informace-ke-zkousce/">Informace o zkoušce</a></li>
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/a2/cs/online-prihlaska/">Online přihláška</a></li>
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/a2/cs/priprava-na-zkousku/modelovy-test/">Test nanečisto</a></li>
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/cs/pro-ucitele/doporucene-ucebnice/">Doporučené učebnice</a></li>
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/a2/cs/kontakty/">Kontakty</a></li>						    
 						</ul>
 					    </div>
 					     <div class="col-6 col-md-3">
 						<h4>Zkouška pro občanství</h4>
 						<ul>
                     
-						    <li><a href="https://cestina-pro-cizince.cz/obcanstvi/cs/obecne-informace/">Obecné informace</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/obcanstvi/cs/o-zkousce-pro-ucely-udelovani-statniho-obcanstvi-v-cr/prihlasovani-ke-zkousce/">Online přihláška</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/obcanstvi/cs/zkouska-z-ceskych-realii/informace-o-zkousce-realie/">Zkouška z českých reálií</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/obcanstvi/cs/zkouska-z-ceskeho-jazyka/informace-o-zkousce-jazyk">Zkouška z českého jazyka</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/obcanstvi/cs/obecne-informace/kontakty/">Kontakty</a></li>
+						    <li><a href="https://127.0.0.1/obcanstvi/cs/obecne-informace/">Obecné informace</a></li>
+						    <li><a href="https://127.0.0.1/obcanstvi/cs/o-zkousce-pro-ucely-udelovani-statniho-obcanstvi-v-cr/prihlasovani-ke-zkousce/">Online přihláška</a></li>
+						    <li><a href="https://127.0.0.1/obcanstvi/cs/zkouska-z-ceskych-realii/informace-o-zkousce-realie/">Zkouška z českých reálií</a></li>
+						    <li><a href="https://127.0.0.1/obcanstvi/cs/zkouska-z-ceskeho-jazyka/informace-o-zkousce-jazyk">Zkouška z českého jazyka</a></li>
+						    <li><a href="https://127.0.0.1/obcanstvi/cs/obecne-informace/kontakty/">Kontakty</a></li>
 						</ul>
 					    </div>
 					     <div class="col-6 col-md-3">
 						<h4>O nás</h4>
 						<ul>
-						    						    <li><a href="https://cestina-pro-cizince.cz/o-portale">O portálu</a></li>		    
+						    						    <li><a href="https://127.0.0.1/o-portale">O portálu</a></li>		    
 						    <li><a href="https://www.npi.cz/">NPI ČR</a></li>
-						    <li><a href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/">Zkouška pro trvalý pobyt</a></li>
-						    <li><a href="https://obcanstvi.cestina-pro-cizince.cz/">Zkouška pro občanství</a></li>
+						    <li><a href="https://127.0.0.1/trvaly-pobyt/a2/">Zkouška pro trvalý pobyt</a></li>
+						    <li><a href="https://obcanstvi.127.0.0.1/">Zkouška pro občanství</a></li>
 						</ul>
 					    </div>
 					
@@ -815,23 +815,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 var scriptParams = {"google_search_engine_id":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js?ver=1" id="google_cse_v2-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/bootstrap.min.js?ver=4.0.0" id="bootstrap-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.meanmenu.min.js?ver=4.0.0" id="meanmenu-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/slick.min.js?ver=1.1.2" id="slick-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/skip-link-focus-fix.min.js?ver=20151215" id="newspotrika-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/main.min.js?ver=1.0.0" id="newspotrika-main-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.nette.js?ver=4.0.0" id="jquery.nette.js-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/nette.ajax.js?ver=4.0.0" id="nette.ajax.js-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jQuery.SimpleMask.min.js?ver=4.0.0" id="jQuery.SimpleMask.min.js-js"></script>
-<script type="text/javascript" src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.ajaxform.js?ver=4.0.0" id="jquery.ajaxform.js-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js?ver=1" id="google_cse_v2-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/bootstrap.min.js?ver=4.0.0" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.meanmenu.min.js?ver=4.0.0" id="meanmenu-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/slick.min.js?ver=1.1.2" id="slick-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/skip-link-focus-fix.min.js?ver=20151215" id="newspotrika-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/main.min.js?ver=1.0.0" id="newspotrika-main-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.nette.js?ver=4.0.0" id="jquery.nette.js-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/nette.ajax.js?ver=4.0.0" id="nette.ajax.js-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jQuery.SimpleMask.min.js?ver=4.0.0" id="jQuery.SimpleMask.min.js-js"></script>
+<script type="text/javascript" src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/jquery.ajaxform.js?ver=4.0.0" id="jquery.ajaxform.js-js"></script>
 
 
 
 
-<link href="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/select2.min.css" rel="stylesheet">
-<script src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/select2/select2.full.min.js"></script>
-<script src="https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/select2/i18n/cs.js"></script>
+<link href="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/css/select2.min.css" rel="stylesheet">
+<script src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/select2/select2.full.min.js"></script>
+<script src="https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/assets/js/select2/i18n/cs.js"></script>
 <script src="https://momentjs.com/downloads/moment.js"></script>
 <script src="https://cdn.rawgit.com/contributte/live-form-validation/v1.8.1/live-form-validation.js"></script>
 
@@ -854,7 +854,7 @@ var scriptParams = {"google_search_engine_id":""};
    jQuery('#trvalyPobytMesto').select2({ width:'100%',
        minimumInputLength: 1,
    ajax: {
-    url: 'https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/mistoPobytuSuggest.php',
+    url: 'https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/mistoPobytuSuggest.php',
     dataType: 'json',
      language: "cs",
    
@@ -914,7 +914,7 @@ var scriptParams = {"google_search_engine_id":""};
 	   //jQuery('#trvalyPobyt').val('');
 	    
       }).autocomplete({
-	source: "https://cestina-pro-cizince.cz/trvaly-pobyt/a2/wp-content/themes/newspotrika/mistoPobytuSuggest.php",
+	source: "https://127.0.0.1/trvaly-pobyt/a2/wp-content/themes/newspotrika/mistoPobytuSuggest.php",
 	minLength: 2,
 	select: function( event, ui ) {
 	    jQuery('#trvalyPobytId').val(ui.item.id);
