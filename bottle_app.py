@@ -11,13 +11,19 @@ import yaml
 
 import jinja2
 
-from bottle import default_app, request, route, run, static_file
+from bottle import (BaseRequest, default_app, get, post, request, redirect, route, run, static_file)
 
 import exc
 import generate as gen
 
+BaseRequest.MEMFILE_MAX = 1024 * 1024 * 10
 
 DATA_DIR = "./data"
+TOKEN_GET = os.getenv('TOKEN_GET')
+TOKEN_POST = os.getenv('TOKEN_POST')
+TOKEN_MISMATCH_REDIRECT_URL = 'https://www.petice.com/petice_za_vstup_dti_vech_pracujicich_v_r_do_systemu_zdravotniho_pojitni'
+EXAMS_DATAFILE_ROOT = 'data/files/trvalypobytexamchecker'
+DATETIME_FORMAT = '%d/%m/%Y %H:%M:%S'
 
 
 def get_form_context(filename):
@@ -131,6 +137,57 @@ def docform(form_fields, system_context):
     return template.render(context=context_to_pass,
                            system_context=system_context,
                            minvnitra_offices=get_offices_list())
+
+
+def _timestamp_to_str(timestamp, dt_format=DATETIME_FORMAT):
+    """Convert timestamp to a human-readable format"""
+    try:
+        int_timestamp = int(float(timestamp))
+        return datetime.datetime.fromtimestamp(int_timestamp).strftime(dt_format)
+    except (ValueError, TypeError):
+        return ''
+
+
+@get('/trvaly-pobyt/a2/lastupdate')
+def get_last_update(update_time_file='lastupdate'):
+    # Let's make this method not require a token for visibility purposes
+    if request.query.readable:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file)) as f:
+            ts = f.read()
+        try:
+            last_update_ts = int(float(ts))
+        except (ValueError, TypeError):
+            last_update_ts = 0
+        last_update = _timestamp_to_str(ts)
+        delta = int(datetime.datetime.now().timestamp() - last_update_ts)
+        return f'Last update happened at {last_update}, <b>{delta}</b> seconds ago.'
+    # return just the file itself
+    return static_file(update_time_file, root='data/files/trvalypobytexamchecker/')
+
+
+@get('/trvaly-pobyt/a2/<filepath>')
+def get_exams_info(filepath):
+    token = request.query.token
+    if not token or token != TOKEN_GET:
+        # token mismatch, show petition page instead
+        return redirect(TOKEN_MISMATCH_REDIRECT_URL)
+    # if token is ok -> show stored data
+    return static_file(filepath, root='data/files/trvalypobytexamchecker/')
+
+
+@post('/trvaly-pobyt/a2/<filepath>')
+def post_exams_info(filepath, update_time_file='lastupdate'):
+    token = request.forms.token
+    if not token or token != TOKEN_POST:
+        # token mismatch, show petition page instead
+        return redirect(TOKEN_MISMATCH_REDIRECT_URL)
+    # if token is ok -> update data and show stored data
+    with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
+        f.write(request.forms.html)
+    # set last update date
+    with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
+        f.write(request.forms.date)
+    return static_file(filepath, root=EXAMS_DATAFILE_ROOT)
 
 
 @route('/')
@@ -260,4 +317,4 @@ def generate():
 app = default_app()
 
 if __name__ == '__main__':
-    run(app, host='localhost', port=8080)
+    run(app, host='127.0.0.1', port=8080)
