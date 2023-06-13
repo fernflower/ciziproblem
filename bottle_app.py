@@ -106,6 +106,10 @@ TEMPLATE_MAP = {
             "template": "stiznost_pvzp.docx",
             "context": "stiznost_pvzp_context.yaml"
             },
+        "Vyrozumění": {
+            "template": "vyrozumeni_pvzp_pro_dite_do_konce_2023.docx",
+            "context": "vyrozumeni_pvzp_pro_dite_do_konce_2023.yaml"
+            }
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -254,6 +258,11 @@ def prohlaseni_pobyt_v_cizine_ua():
 @route('/stiznost_pvzp')
 def stiznost_pvzp():
     return docform(*get_form_context('stiznost_pvzp_context.yaml'))
+
+
+@route('/vyrozumeni_pvzp')
+def pvzp_no_more():
+    return docform(*get_form_context('vyrozumeni_pvzp_pro_dite_do_konce_2023.yaml'))
 
 
 def get_office_by_name(name):

@@ -1,0 +1,22 @@
+document:
+  name: "Vyrozumění"
+  postal_address: "minvnitra_offices_chooser"
+  datova_schranka: "b78xtfa"
+  link: "https://www.mvcr.cz/mvcren/docDetail.aspx?docid=21658458&doctype=ART"
+  authority: "Ministerstvo vnitra"
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: city
+        default: "Londýn"
+      - name: date
+        default: "01.01.01"
+        type: date
+      - name: dependent_applicant_name
+        default: "Lily Luna Potter"
+      - name: dependent_applicant_gender
+        choices:
+          - Female
+          - Male
+        type: radio
