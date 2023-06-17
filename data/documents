@@ -73,6 +73,13 @@ documents:
     body:
       - value: PVZP Vice-President <a href="https://www.pvzp.cz/cs/o-spolecnosti/pro-media/">Halina Trskova<a/> has confirmed that the feedback loop is broken and despite PVZP clients having left numerous complaints with the PVZP Assistance service PVZP top management has heard none of them. So let's help Madam Vice-President see how dire PVZP clients' situation is with medical services availability.
 
+  - header: Reminder that PVZP contract for kids is not needed starting Jan, 1, 2024
+    link: /vyrozumeni_pvzp
+    css_style: warning
+    group: 1_mvcr
+    body:
+      - value: A kind reminder for the Ministry of Interior that they should not cap kids' long-term residence permits validity by the duration of PVZP insurance anymore.
+
   - header: Residence permit application
     link: /static/files/green_application_form.pdf
     css_style: success
