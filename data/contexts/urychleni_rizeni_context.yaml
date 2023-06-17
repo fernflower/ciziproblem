@@ -32,7 +32,6 @@ document:
       - name: telephone
         default: "123456789"
       - name: date
-        default: "01.01.01"
         type: date
       - name: application_number
         default: "OAM-424242"
