@@ -26,7 +26,6 @@ document:
           - Female
         type: radio
       - name: date
-        default: "01.01.01"
         type: date
       - name: insurance_number
         default: "999000666"

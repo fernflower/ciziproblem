@@ -22,7 +22,6 @@ document:
       - name: city
         default: "Londýn"
       - name: date
-        default: "01.01.01"
         type: date
       - name: name_of_czech_authority
         default: "Škola čar a kouzel v Bradavicích"

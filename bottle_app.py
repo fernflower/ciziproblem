@@ -24,6 +24,7 @@ TOKEN_POST = os.getenv('TOKEN_POST')
 TOKEN_MISMATCH_REDIRECT_URL = 'https://www.petice.com/petice_za_vstup_dti_vech_pracujicich_v_r_do_systemu_zdravotniho_pojitni'
 EXAMS_DATAFILE_ROOT = 'data/files/trvalypobytexamchecker'
 DATETIME_FORMAT = '%d/%m/%Y %H:%M:%S'
+DATETIME_HTML = '%d.%m.%Y'
 
 
 def get_form_context(filename):
@@ -285,11 +286,15 @@ def _apply_post_processing_hacks(context, form_fields):
     "Hacks to convert data received from frontend to the expected form in docx templates"
     # transition from YYYY-MM-DD dates to expected DD.MM.YYYY
     for date_key in [f["name"] for f in form_fields if f.get("type") == "date"]:
-        try:
-            context[date_key] = datetime.datetime.strptime(context[date_key], '%Y-%M-%d').strftime('%d.%M.%Y')
-        except (TypeError, ValueError):
-            # if anything breaks - just have it as is
-            pass
+        if not context[date_key]:
+            # if date is not specified assume we need today's date
+            context[date_key] = datetime.datetime.now().strftime(DATETIME_HTML)
+        else:
+            try:
+                context[date_key] = datetime.datetime.strptime(context[date_key], '%Y-%m-%d').strftime(DATETIME_HTML)
+            except (TypeError, ValueError):
+                # if anything breaks - just have it as is
+                pass
     # process chosen office: substitute name with full information
     if '__chosen_office' in context:
         context['chosen_office'] = get_office_by_name(context.get('__chosen_office')) or \

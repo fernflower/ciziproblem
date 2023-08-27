@@ -28,5 +28,4 @@ document:
       - name: telephone
         default: "123456789"
       - name: date
-        default: "01.01.01"
         type: date

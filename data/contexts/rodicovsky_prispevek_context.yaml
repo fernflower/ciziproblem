@@ -56,7 +56,6 @@ document:
       - name: email
         default: "harrypotter@seznam.cz"
       - name: date
-        default: "01.01.01"
         type: date
       - name: city
         default: "Londýn"

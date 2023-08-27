@@ -37,7 +37,6 @@ document:
       - name: phone
         default: "123456789"
       - name: date
-        default: "01.01.01"
         type: date
       - name: city
         default: "Londýn"
