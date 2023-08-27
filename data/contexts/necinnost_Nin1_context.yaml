@@ -32,10 +32,14 @@ document:
         after: "pro cizinku narozenou na území ČR"
 
   residence_deadline_map:
-      Extend:
-        name: "Prodloužení doby platnosti průkazu o povolení k pobytu"
+      Extend_before_01072023:
+        name: "Prodloužení doby platnosti průkazu o povolení k pobytu (podání do 01.07.2023)"
         deadline: "30 dnů"
         law: "§ 71 zákona č. 500/2004 Sb., správního řádu"
+      Extend:
+        name: "Prodloužení doby platnosti průkazu o povolení k pobytu"
+        deadline: "60 dnů"
+        law: "§ 169t odst. 7 písm. i) z. č. 326/1999 Sb"
       ZK:
         name: "Zaměstnanecká karta"
         deadline: "60 dnů ode dne podání žádosti, nebo 90 dnů ve zvlášť složitých případech, nebo pokud ministerstvo požádalo o vydání závazného stanoviska Úřad práce České republiky"
@@ -143,7 +147,6 @@ document:
       - name: application_number
         default: "OAM-424242"
       - name: application_date
-        default: "01.01.11"
         type: date
 
       - name: vady_zadosti
@@ -187,6 +190,7 @@ document:
       - name: residence_permit_type
         choices:
           - "Prodloužení doby platnosti průkazu o povolení k pobytu"
+          - "Prodloužení doby platnosti průkazu o povolení k pobytu (podání do 01.07.2023)"
           - "Zaměstnanecká karta"
           - "Modrá karta"
           - "Trvalý pobyt"
