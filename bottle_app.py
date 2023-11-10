@@ -287,8 +287,16 @@ def _apply_post_processing_hacks(context, form_fields):
     # transition from YYYY-MM-DD dates to expected DD.MM.YYYY
     for date_key in [f["name"] for f in form_fields if f.get("type") == "date"]:
         if not context[date_key]:
-            # if date is not specified assume we need today's date
-            context[date_key] = datetime.datetime.now().strftime(DATETIME_HTML)
+            # XXX FIXME(ivasilev) Not perfect but the alternative is to introduce custom conditional logic in context
+            # templates, which seems like an overkill at the moment.
+            # In case it's about necinnostNto1 and same type permit extension before 01.07.2023, use 31.06.2023
+            # for application date
+            if (context.get("residence_permit_type") == "Prodloužení doby platnosti průkazu o povolení k pobytu (podání do 01.07.2023)" and
+                date_key == "application_date"):
+                context[date_key] = '31.06.2023'
+            else:
+                # if date is not specified assume we need today's date
+                context[date_key] = datetime.datetime.now().strftime(DATETIME_HTML)
         else:
             try:
                 context[date_key] = datetime.datetime.strptime(context[date_key], '%Y-%m-%d').strftime(DATETIME_HTML)

@@ -7,7 +7,8 @@ documents:
       - value: "By law the deadlines for residence permits decisions are:"
       - type: list
         value:
-          - extending validity of any permit - 30 days
+          - extending validity of any permit - 60 days
+          - extending validity of any permit (before 01.07.2023) - 30 days
           - permanent residence permit application - 60 days
           - blue card application - 90 days
           - employee card application - 60 days (120 days in some cases)
