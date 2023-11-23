@@ -192,10 +192,11 @@ def post_exams_info(filepath):
     with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
         f.write(request.forms.html)
     # set last update date
-    with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
+    if update_time_file:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
         # NOTE(ivasilev) Don't take date from request, put there the time the request got through
-        date = datetime.datetime.now().timestamp()
-        f.write(str(date))
+            date = datetime.datetime.now().timestamp()
+            f.write(str(date))
     return static_file(filepath, root=EXAMS_DATAFILE_ROOT)
 
 
