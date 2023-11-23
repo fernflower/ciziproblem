@@ -185,12 +185,15 @@ def post_exams_info(filepath):
     token = request.forms.token
     # Create ts file by default only if saving html. Json will have ts in the data
     update_time_file = 'lastupdate' if filepath == 'online-prihlaska' else request.forms.update_time_file
+    # Allow 2 types of data field
+    data = request.forms.html or request.forms.data
     if not token or token != TOKEN_POST:
         # token mismatch, show petition page instead
         return redirect(TOKEN_MISMATCH_REDIRECT_URL)
     # if token is ok -> update data and show stored data
-    with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
-        f.write(request.forms.html)
+    if data:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
+            f.write(request.forms.html)
     # set last update date
     if update_time_file:
         with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
