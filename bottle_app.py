@@ -181,20 +181,50 @@ def get_exams_info(filepath):
 
 
 @post('/trvaly-pobyt/a2/<filepath>')
-def post_exams_info(filepath, update_time_file='lastupdate'):
+def post_exams_info(filepath):
+    token = request.forms.token
+    # Create ts file by default only if saving html. Json will have ts in the data
+    update_time_file = 'lastupdate' if filepath == 'online-prihlaska' else request.forms.update_time_file
+    # Allow 2 types of data field
+    data = request.forms.html or request.forms.data
+    if not token or token != TOKEN_POST:
+        # token mismatch, show petition page instead
+        return redirect(TOKEN_MISMATCH_REDIRECT_URL)
+    # if token is ok -> update data and show stored data
+    if data:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
+            f.write(request.forms.html)
+    # set last update date
+    if update_time_file:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
+        # NOTE(ivasilev) Don't take date from request, put there the time the request got through
+            date = datetime.datetime.now().timestamp()
+            f.write(str(date))
+    return static_file(filepath, root=EXAMS_DATAFILE_ROOT)
+
+
+@post('/trvaly-pobyt/a2/fetcher_status')
+def update_fetcher_status():
+    filepath = 'fetcher_status'
     token = request.forms.token
     if not token or token != TOKEN_POST:
         # token mismatch, show petition page instead
         return redirect(TOKEN_MISMATCH_REDIRECT_URL)
     # if token is ok -> update data and show stored data
+    status_file = os.path.join(EXAMS_DATAFILE_ROOT, filepath)
+    if not os.path.isfile(status_file):
+        current_status = {}
+    else:
+        with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath)) as f:
+            try:
+                current_status = json.loads(f.read())
+            except json.JSONDecodeError:
+                current_status = {}
+    # Now update status based on info from request
+    current_status[request.forms.id] = request.forms.status
     with open(os.path.join(EXAMS_DATAFILE_ROOT, filepath), 'w') as f:
-        f.write(request.forms.html)
-    # set last update date
-    with open(os.path.join(EXAMS_DATAFILE_ROOT, update_time_file), 'w') as f:
-        # NOTE(ivasilev) Don't take date from request, put there the time the request got through
-        date = datetime.datetime.now().timestamp()
-        f.write(str(date))
-    return static_file(filepath, root=EXAMS_DATAFILE_ROOT)
+        f.write(json.dumps(current_status))
+    return static_file(filepath, root='data/files/trvalypobytexamchecker/')
 
 
 @route('/')
