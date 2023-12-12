@@ -43,15 +43,15 @@ document:
       ZK:
         name: "Zaměstnanecká karta"
         deadline: "60 dnů ode dne podání žádosti, nebo 90 dnů ve zvlášť složitých případech, nebo pokud ministerstvo požádalo o vydání závazného stanoviska Úřad práce České republiky"
-        law: "§ 169t odst. 6 pism. c) z. č. 326/1999 Sb"
+        law: "§ 169t odst. 6 pism. d) z. č. 326/1999 Sb"
       MK:
         name: "Modrá karta"
         deadline: "90 dnů"
-        law: "§ 169t odst. 6 písm. d) z. č. 326/1999 Sb"
+        law: "§ 169t odst. 6 písm. e) z. č. 326/1999 Sb"
       TP:
         name: "Trvalý pobyt"
         deadline: "60 dnů"
-        law: "§ 169t odst. 6 písm. g) z. č. 326/1999 Sb"
+        law: "§ 169t odst. 6 písm. h) z. č. 326/1999 Sb"
       DP_study:
         name: "Dlouhodobý pobyt za účelem studia"
         deadline: "60 dnů"
@@ -75,7 +75,7 @@ document:
       PP:
         name: "Povolení k přechodnému pobytu"
         deadline: "60 dnů"
-        law: "§ 169t odst. 6 písm. f) z. č. 326/1999 Sb"
+        law: "§ 169t odst. 6 písm. g) z. č. 326/1999 Sb"
       DV_study:
         name: "Dlouhodobé vízum za účelem studia"
         deadline: "60 dnů"
