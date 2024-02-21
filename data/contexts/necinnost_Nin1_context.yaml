@@ -39,7 +39,7 @@ document:
       Extend:
         name: "Prodloužení doby platnosti průkazu o povolení k pobytu"
         deadline: "60 dnů"
-        law: "§ 169t odst. 7 písm. i) z. č. 326/1999 Sb"
+        law: "§ 169t odst. 6 písm. i) z. č. 326/1999 Sb"
       ZK:
         name: "Zaměstnanecká karta"
         deadline: "60 dnů ode dne podání žádosti, nebo 90 dnů ve zvlášť složitých případech, nebo pokud ministerstvo požádalo o vydání závazného stanoviska Úřad práce České republiky"
