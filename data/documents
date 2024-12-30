@@ -23,6 +23,14 @@ documents:
           - <a href="https://www.mvcr.cz/clanek/lhuty-a-pocitani-casu.aspx">Deadlines information from the official mvcr.cz website</a>
       - value: If you are waiting longer - it is time to do something about it.
 
+  - header: Complaint CZ Citizenship - deadline missed
+    link: /necinnost_obcanstvi
+    css_style: danger
+    group: 1_mvcr
+    body:
+      - value: "By law the deadline for decision is 30+180 days"
+      - value: If you are waiting longer - it is time to do something about it.
+
   - header: Confirmation of current residence in the Czech Republic (potvrzení o současném pobytu)
     link: /potvrzeni_o_soucasnem_pobytu
     group: 2_mvcr_history

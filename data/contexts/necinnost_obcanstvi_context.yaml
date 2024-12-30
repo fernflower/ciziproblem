@@ -1,0 +1,108 @@
+document:
+  name: "Žádost o uplatnění opatření proti nečinnosti - Udělení státního občanství ČR"
+  postal_address: "Ministerstvo vnitra, Oddělení státního občanství, nám. Hrdinů 1634/3, 140 21 Praha 4"
+  datova_schranka: "6bnaawp"
+  link: "https://mv.gov.cz/clanek/udeleni-statniho-obcanstvi-ceske-republiky.aspx"
+  authority: "Ministerstvo vnitra České republiky "
+  declination:
+    2:
+      - before: "nezletilá"
+        after: "nezletilé"
+      - before: "nezletilý"
+        after: "nezletilého"
+    4:
+      - before: "dcera"
+        after: "dceru"
+      - before: "syn"
+        after: "syna"
+      - before: "nezletilá"
+        after: "nezletilou"
+      - before: "nezletilý"
+        after: "nezletilého"
+
+  persons_map:
+      zs:
+        name: "zakonny_zastupce"
+        Male: "zákonný zástupce"
+        Female: "zákonná zástupkyně"
+      parent:
+        name: "parent"
+        Male: "otec"
+        Female: "matka"
+      nezl:
+        name: "nezletily"
+        Male: "nezletilý"
+        Female: "nezletilá"
+      child:
+        name: "child"
+        Male: "syn"
+        Female: "dcera"
+      foreigner_born_in_CZ:
+        name: "foreigner_born_in_CZ"
+        Male: "сizinec narozený na území ČR"
+        Female: "cizinka narozená na území ČR"
+      verb_gender:
+        name: "verb_gender"
+        Male: ""
+        Female: "a"
+
+      #TODO null check somewhere instead of this
+      empty:
+        name: ""
+        Male: ""
+        Female: ""
+
+  form:
+    fields:
+      - name: name
+        default: "Harry James Potter"
+      - name: date_of_birth
+        default: "31.07.1980"
+        type: date
+      - name: nationality
+        default: "Británie"
+      - name: address
+        default: "4 Privet Drive"
+      - name: city
+        default: "Londýn"
+      - name: gender
+        choices:
+          - Male
+          - Female
+        type: radio
+      - name: telephone
+        default: "123456789"
+      - name: date
+        type: date
+      - name: application_number
+        default: "OAM-424242"
+      - name: application_date
+        type: date
+
+      - name: nezletily
+        type: checkbox
+      - name: nezletily_name
+        default: "Albus Severus Potter"
+        conditional: nezletily
+      - name: nezletily_date_of_birth
+        default: "01.01.2021"
+        type: date
+        conditional: nezletily
+      - name: nezletily_nationality
+        default: "Austrálie"
+        conditional: nezletily
+      - name: nezletily_address
+        default: "Staromak, Praha 1, 11000"
+        conditional: nezletily
+      - name: nezletily_gender
+        choices:
+          - Male
+          - Female
+        type: radio
+        conditional: nezletily
+      - name: nezletily_relation
+        choices:
+          - Child
+          - Other
+        type: radio
+        conditional: nezletily
