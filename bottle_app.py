@@ -80,6 +80,10 @@ TEMPLATE_MAP = {
             "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_Nin1.docx",
             "context": "necinnost_Nin1_context.yaml"
             },
+        "Žádost o uplatnění opatření proti nečinnosti - Udělení státního občanství ČR": {
+            "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_obcanstvi.docx",
+            "context": "necinnost_obcanstvi_context.yaml"
+            },
         "Žádost o urychlení řízení": {
             "template": "zadost_urychleni_rizeni.docx",
             "context": "urychleni_rizeni_context.yaml"
@@ -241,6 +245,10 @@ def index():
 @route('/necinnost_Nin1')
 def necinnost():
     return docform(*get_form_context('necinnost_Nin1_context.yaml'))
+
+@route('/necinnost_obcanstvi')
+def necinnost():
+    return docform(*get_form_context('necinnost_obcanstvi_context.yaml'))
 
 
 @route('/rodne_cislo_application')
