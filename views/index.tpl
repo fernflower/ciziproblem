@@ -54,7 +54,7 @@
     </div>
 
     <div class="col-xs-1 text-center pt-5">
-      <p class="text-muted small">Created by <a href="https://github.com/fernflower">fernflower</a>, 2021</p>
+      <p class="text-muted small">Created by <a href="https://github.com/fernflower">fernflower</a>, 2026</p>
     </div>
   </body>
 </html>
