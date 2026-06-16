@@ -5,6 +5,7 @@ This single file takes care of generating each and every form at https://cizipro
 
 import datetime
 import json
+import markdown
 import os
 import tempfile
 import yaml
@@ -146,6 +147,14 @@ def docform(form_fields, system_context):
     return template.render(context=context_to_pass,
                            system_context=system_context,
                            minvnitra_offices=get_offices_list())
+
+
+def output_markdown(md_file):
+    with open(os.path.join(DATA_DIR, 'markdown', md_file)) as f:
+        markdown_text = f.read()
+    template = env.get_or_select_template('plain_md.tpl')
+    md_to_html = markdown.markdown(markdown_text)
+    return template.render(content=md_to_html)
 
 
 def _timestamp_to_str(timestamp, dt_format=DATETIME_FORMAT):
@@ -304,6 +313,11 @@ def stiznost_pvzp():
 @route('/vyrozumeni_pvzp')
 def pvzp_no_more():
     return docform(*get_form_context('vyrozumeni_pvzp_pro_dite_do_konce_2023.yaml'))
+
+
+@route('/cermat')
+def cermat():
+    return output_markdown('cermat.yaml')
 
 
 def get_office_by_name(name):
