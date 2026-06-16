@@ -29,7 +29,7 @@ documents:
     css_style: warning
     group: 1a_top
     body:
-      - value: '<img src="/static/files/katniss.webP" class="card-img-top" alt="Cermat">'
+      - value: '<img src="/static/files/katniss_fire.jpg" class="card-img-top" alt="Cermat">'
       - value: A survival guide for parents navigating the Czech gymnasium entrance exams. Covers school selection strategy, study materials, tips & tricks and what to do if things don't go as planned.
 
   - header: Complaint CZ Citizenship - deadline missed
