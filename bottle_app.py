@@ -331,7 +331,7 @@ def get_office_address():
     return json.dumps(office or {})
 
 
-@route(r'/static/files/<filepath:re:.*\.(pdf|xml)>')
+@route(r'/static/files/<filepath:re:.*\.(pdf|xml|[wW][eE][bB][pP]|jpg|png)>')
 def files(filepath):
     return static_file(filepath, root='data/files')
 

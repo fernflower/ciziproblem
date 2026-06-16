@@ -2,7 +2,7 @@ documents:
   - header: Complaint - deadline missed
     link: /necinnost_Nin1
     css_style: danger
-    group: 1_mvcr
+    group: 1a_top
     body:
       - value: "By law the deadlines for residence permits decisions are:"
       - type: list
@@ -24,10 +24,18 @@ documents:
           - <a href="https://ipc.gov.cz/spravni-rizeni/lhuty-a-jejich-pocitani/">Deadlines information from the official mvcr.cz website</a>
       - value: If you are waiting longer - it is time to do something about it.
 
+  - header: Cermat 101
+    link: /cermat
+    css_style: warning
+    group: 1a_top
+    body:
+      - value: '<img src="/static/files/katniss.webP" class="card-img-top" alt="Cermat">'
+      - value: A survival guide for parents navigating the Czech gymnasium entrance exams. Covers school selection strategy, study materials, tips & tricks and what to do if things don't go as planned.
+
   - header: Complaint CZ Citizenship - deadline missed
     link: /necinnost_obcanstvi
     css_style: danger
-    group: 1_mvcr
+    group: 1a_top
     body:
       - value: "By law the deadline for decision is 30+180 days"
       - value: If you are waiting longer - it is time to do something about it.
@@ -79,28 +87,28 @@ documents:
   - header: Stížnost na nedostupnost zdravotní péče (PVZP)
     link: /stiznost_pvzp
     css_style: danger
-    group: 1_mvcr
+    group: 1c_mvcr
     body:
       - value: At the Parliament round table on Feb, 7, 2023 (now former) PVZP Vice-President Halina Trskova has confirmed that the feedback loop is broken and despite PVZP clients having left numerous complaints with the PVZP Assistance service PVZP top management has heard none of them. So let's help PVZP management see how dire their clients' situation is with medical services availability.
 
   - header: Reminder that PVZP contract for kids is not needed starting Jan, 1, 2024
     link: /vyrozumeni_pvzp
     css_style: warning
-    group: 1_mvcr
+    group: 1c_mvcr
     body:
       - value: A kind reminder for the Ministry of Interior that they should not cap kids' long-term residence permits validity by the duration of PVZP insurance anymore.
 
   - header: Residence permit application
     link: /static/files/green_application_form.pdf
     css_style: success
-    group: 1_mvcr
+    group: 1c_mvcr
     body:
       - value: A fillable PDF version of the generic "the green one" residence permit application. Can be used for long-term and permanent residence permits application or extension.
 
   - header: Long-term residence permit kind reminder - main application approved
     link: /urychleni_rizeni
     css_style: success
-    group: 1_mvcr
+    group: 1c_mvcr
     body:
       - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
 

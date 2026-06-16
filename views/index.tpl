@@ -17,17 +17,29 @@
       body {
         padding: 20px 0;
       }
+      .card-columns {
+        column-count: 1;
+        column-gap: 1.5rem;
+      }
+      @media (min-width: 768px) {
+        .card-columns {
+          column-count: 2;
+        }
+      }
+      .card-columns .card {
+        break-inside: avoid;
+        margin-bottom: 1.5rem;
+      }
     </style>
   </head>
   <body class='bg-light'>
     <div class='container'>
       <div class="image"></div>
-      <h2>Which document do you want to create today?</h2>
+      <h2>What problem are you facing today?</h2>
       <div class="options">
         {% for group in documents %}
-        <div class="row row-cols-1 row-cols-md-2 g-4 mt-1">
+        <div class="card-columns mt-3">
           {% for doc in group %}
-          <div class="col">
             <div class="card border-{{ doc.get('css_style', 'info') }}">
               <div class="card-header">{{ doc.get('header') }}</div>
               <div class="card-body">
@@ -46,7 +58,6 @@
               </div>
             </div> <!-- card-body -->
           </div> <!-- card -->
-          </div> <!-- col -->
           {% endfor %}
         </div>
         {% endfor %}
