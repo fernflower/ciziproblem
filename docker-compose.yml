@@ -19,7 +19,7 @@ services:
     volumes:
       - ./socket:/ciziproblem/socket
       - ./log/uwsgi:/var/log/uwsgi
-      - ./data/files:/ciziproblem/data/files
+      - ./data:/ciziproblem/data
     environment:
       TOKEN_GET: "$TOKEN_GET"
       TOKEN_POST: "$TOKEN_POST"
