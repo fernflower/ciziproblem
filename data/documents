@@ -52,12 +52,6 @@ documents:
     body:
       - value: When you have to confirm the duration of your residence. Most typical usecase is to prove that you have spent N years in the Czech Republic. The waiting time can be up to 30 days.
 
-  # NOTE(ivasilev) Disabled as not necessary at the moment
-  # - header: COVID-19 Affidavit for leaving the home region
-  #   link: /covid19_cestovani_mimo_okres
-  #   body:
-  #     - value: From 01/03/21 till 23/03/21 your home district can be left only for a specific reason and you should have a written affidavit with you to show to the police.
-
   - header: Rodné číslo assignment application
     link: /rodne_cislo_application
     css_style: warning
@@ -91,29 +85,9 @@ documents:
     body:
       - value: At the Parliament round table on Feb, 7, 2023 (now former) PVZP Vice-President Halina Trskova has confirmed that the feedback loop is broken and despite PVZP clients having left numerous complaints with the PVZP Assistance service PVZP top management has heard none of them. So let's help PVZP management see how dire their clients' situation is with medical services availability.
 
-  - header: Reminder that PVZP contract for kids is not needed starting Jan, 1, 2024
-    link: /vyrozumeni_pvzp
-    css_style: warning
-    group: 1c_mvcr
-    body:
-      - value: A kind reminder for the Ministry of Interior that they should not cap kids' long-term residence permits validity by the duration of PVZP insurance anymore.
-
   - header: Residence permit application
     link: /static/files/green_application_form.pdf
     css_style: success
     group: 1c_mvcr
     body:
       - value: A fillable PDF version of the generic "the green one" residence permit application. Can be used for long-term and permanent residence permits application or extension.
-
-  - header: Long-term residence permit kind reminder - main application approved
-    link: /urychleni_rizeni
-    css_style: success
-    group: 1c_mvcr
-    body:
-      - value: Your family applied together with you for long-term residence permits for the purpose of reunification, your application has already been approved but theirs still not?
-
-  - header: Prohlášení o dlouhodobém pobytu v cizině (UA)
-    link: /prohlaseni_pobyt_v_cizine_ua
-    css_style: success
-    body:
-      - value: This form can be used by UA refugees to temporarily opt-out of the Czech public health insurance for the duration of their stay in the Ukraine.

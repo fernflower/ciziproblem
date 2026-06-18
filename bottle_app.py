@@ -85,14 +85,6 @@ TEMPLATE_MAP = {
             "template": "zadost_o_uplatneni_opatreni_proti_necinnosti_spravniho_organu_obcanstvi.docx",
             "context": "necinnost_obcanstvi_context.yaml"
             },
-        "Žádost o urychlení řízení": {
-            "template": "zadost_urychleni_rizeni.docx",
-            "context": "urychleni_rizeni_context.yaml"
-            },
-        "Cestování mimo okres: prohlášení": {
-            "template": "COVID19-okresy_formular_cesta_mimo_okres.docx",
-            "context": "covid19_okresy_prohlaseni.yaml"
-            },
         "Žádost o vydání potvrzení o daňovém domicilu": {
             "template": "zadost_domicil.docx",
             "context": "domicil_context.yaml"
@@ -104,18 +96,10 @@ TEMPLATE_MAP = {
         "Čestné prohlášení o nepobírání dávek v jiném státě": {
             "template": "cestne_prohlaseni_o_nepobirani_davek.docx",
             "context": "cestne_prohlaseni_o_nepobirani_davek_context.yaml"},
-        "Prohlášení o dlouhodobém pobytu v cizině (UA)": {
-            "template": "prohlaseni_pobyt_v_cizine_ua.docx",
-            "context": "prohlaseni_pobyt_v_cizine_ua.yaml"
-            },
         "Stížnost na nedostupnost zdravotní péče": {
             "template": "stiznost_pvzp.docx",
             "context": "stiznost_pvzp_context.yaml"
             },
-        "Vyrozumění": {
-            "template": "vyrozumeni_pvzp_pro_dite_do_konce_2023.docx",
-            "context": "vyrozumeni_pvzp_pro_dite_do_konce_2023.yaml"
-            }
         }
 env = jinja2.Environment(
     loader=jinja2.FileSystemLoader('./views'),
@@ -275,16 +259,6 @@ def potvrzeni_soucasny_pobyt():
     return docform(*get_form_context('potvrzeni_o_soucasnem_pobytu_context.yaml'))
 
 
-@route('/urychleni_rizeni')
-def urychleni_rizeni():
-    return docform(*get_form_context('urychleni_rizeni_context.yaml'))
-
-
-@route('/covid19_cestovani_mimo_okres')
-def covid19_prohlaseni():
-    return docform(*get_form_context('covid19_okresy_prohlaseni.yaml'))
-
-
 @route('/danovy_domicil')
 def danovy_domicil():
     return docform(*get_form_context('domicil_context.yaml'))
@@ -300,19 +274,9 @@ def rodicovsky_prispevek_affidavit():
     return docform(*get_form_context('cestne_prohlaseni_o_nepobirani_davek_context.yaml'))
 
 
-@route('/prohlaseni_pobyt_v_cizine_ua')
-def prohlaseni_pobyt_v_cizine_ua():
-    return docform(*get_form_context('prohlaseni_pobyt_v_cizine_ua.yaml'))
-
-
 @route('/stiznost_pvzp')
 def stiznost_pvzp():
     return docform(*get_form_context('stiznost_pvzp_context.yaml'))
-
-
-@route('/vyrozumeni_pvzp')
-def pvzp_no_more():
-    return docform(*get_form_context('vyrozumeni_pvzp_pro_dite_do_konce_2023.yaml'))
 
 
 @route('/cermat')
